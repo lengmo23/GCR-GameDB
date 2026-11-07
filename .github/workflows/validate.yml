@@ -18,5 +18,8 @@ jobs:
           node-version: "22"
       - name: Build deterministic index
         run: npm run build
-      - name: Verify generated index is committed
-        run: git diff --exit-code -- generated/gamedb-v1.json
+      - name: Verify generated index and checksums are committed
+        run: >-
+          git diff --exit-code --
+          generated/gamedb-v1.json generated/gamedb-v1.json.sha256
+          candidates/gamepp-type1.json candidates/gamepp-type1.json.sha256

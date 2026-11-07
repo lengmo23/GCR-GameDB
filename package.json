@@ -1,5 +1,5 @@
 {
-  "name": "game2pl-gamedb",
+  "name": "gcr-gamedb",
   "private": true,
   "type": "module",
   "scripts": {

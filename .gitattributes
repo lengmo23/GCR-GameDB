@@ -1,0 +1,4 @@
+# 客户端按 SHA-256 核对下载的数据文件，哈希按仓库里存的字节算：
+# 这些文件在任何平台的工作区里都必须保持 LF，不能让 core.autocrlf 改成 CRLF。
+*.json   text eol=lf
+*.sha256 text eol=lf
