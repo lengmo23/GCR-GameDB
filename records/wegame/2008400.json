@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2008400",
+  "status": "verified",
+  "names": {
+    "zh-CN": "黑白之地",
+    "en": "Xanadu Land"
+  },
+  "platform": "wegame",
+  "platformId": "2008400",
+  "executables": [
+    {
+      "name": "Xanadu.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2008400 = 黑白之地; loader_path and file_signatures_1 Xanadu.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2008400/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "no launcher in the record"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

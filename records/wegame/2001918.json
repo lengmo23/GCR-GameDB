@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2001918",
+  "status": "verified",
+  "names": {
+    "zh-CN": "三角洲行动",
+    "en": "Delta Force"
+  },
+  "platform": "wegame",
+  "platformId": "2001918",
+  "executables": [
+    {
+      "name": "DeltaForceClient-Win64-Test.exe",
+      "relativePath": "DeltaForce/Binaries/Win64/DeltaForceClient-Win64-Test.exe"
+    },
+    {
+      "name": "DeltaForceClient-Win64-Shipping.exe",
+      "relativePath": "DeltaForce/Binaries/Win64/DeltaForceClient-Win64-Shipping.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2001918 = 三角洲行动; loader_path and file_signatures_1 DeltaForce\\Binaries\\Win64\\DeltaForceClient-Win64-Test.exe; multi_loader also lists DeltaForceClient-Win64-Shipping.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2001918/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "DFM (mobile) client entries in acc_exe_paths are not the PC game and excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

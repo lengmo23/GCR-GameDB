@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "netease:identity-v",
+  "status": "verified",
+  "names": {
+    "en": "Identity V",
+    "zh-CN": "第五人格"
+  },
+  "platform": "netease",
+  "platformId": "identity-v",
+  "executables": [
+    {
+      "name": "dwrg.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "community_confirmation",
+      "source": "https://wiki.biligame.com/dwrg/PC 第五人格 BWIKI PC page: double-click dwrg.exe to start; end the dwrg.exe process when the window does not appear"
+    },
+    {
+      "kind": "community_confirmation",
+      "source": "https://lutris.net/games/install/38818/view Lutris installer for Identity V international runs IdentityV2/dwrg.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "dwrg_repair.exe is the repair tool and excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

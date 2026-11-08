@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:17",
+  "status": "verified",
+  "names": {
+    "zh-CN": "QQ飞车",
+    "en": "QQ Speed"
+  },
+  "platform": "wegame",
+  "platformId": "17",
+  "executables": [
+    {
+      "name": "GameApp.exe",
+      "relativePath": "Releasephysx27_64/GameApp.exe"
+    },
+    {
+      "name": "GameApp.exe",
+      "relativePath": "Releasephysx27/GameApp.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 17 = QQ飞车; acc_exe_paths Releasephysx27_64\\GameApp.exe and Releasephysx27\\GameApp.exe; loader_path QQSpeed_loader.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/17/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "QQSpeed_loader.exe and QQSpeed_Launch.exe are loaders and excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

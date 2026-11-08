@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2002729",
+  "status": "verified",
+  "names": {
+    "zh-CN": "轩辕传奇怀旧服"
+  },
+  "platform": "wegame",
+  "platformId": "2002729",
+  "executables": [
+    {
+      "name": "XYClient.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2002729 = 轩辕传奇怀旧服; loader_path and file_signatures_1 XYClient.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2002729/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "XYClient_D.exe excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

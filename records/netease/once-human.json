@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "netease:once-human",
+  "status": "verified",
+  "names": {
+    "en": "Once Human",
+    "zh-CN": "七日世界"
+  },
+  "platform": "netease",
+  "platformId": "once-human",
+  "executables": [
+    {
+      "name": "ONCE_HUMAN.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "Steam PICS appinfo for AppID 2139460 (Once Human / 七日世界, Starry Studio): config.launch executable ONCE_HUMAN.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/2139460/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "The Steam launch entry is the game itself, not a launcher. The layout of a non-Steam client is not confirmed, so no relativePath is recorded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

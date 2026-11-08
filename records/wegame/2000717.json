@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2000717",
+  "status": "verified",
+  "names": {
+    "zh-CN": "三国杀"
+  },
+  "platform": "wegame",
+  "platformId": "2000717",
+  "executables": [
+    {
+      "name": "Sgsc10th.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2000717 = 三国杀; loader_path and file_signatures_1 Sgsc10th.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2000717/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "no launcher in the record"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

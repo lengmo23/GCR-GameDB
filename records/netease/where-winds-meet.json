@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "netease:where-winds-meet",
+  "status": "verified",
+  "names": {
+    "en": "Where Winds Meet",
+    "zh-CN": "燕云十六声"
+  },
+  "platform": "netease",
+  "platformId": "where-winds-meet",
+  "executables": [
+    {
+      "name": "wwm.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "Steam PICS appinfo for AppID 3564740 (Where Winds Meet \\ 燕云十六声, Everstone Studio \\ NetEase Games): config.launch executable Engine\\Binaries\\Win64r\\wwm.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/3564740/"
+    },
+    {
+      "kind": "community_confirmation",
+      "source": "https://allthings.how/?p=12869 locates the WWM main program under the Engine Binaries Win64 folder"
+    },
+    {
+      "kind": "manual_review",
+      "source": "No relativePath: the NetEase standalone client layout is not confirmed to match the Steam depot; the launcher is not listed"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

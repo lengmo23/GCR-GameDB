@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2001097",
+  "status": "verified",
+  "names": {
+    "zh-CN": "龙之谷",
+    "en": "Dragon Nest"
+  },
+  "platform": "wegame",
+  "platformId": "2001097",
+  "executables": [
+    {
+      "name": "DragonNest.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2001097 = 龙之谷; acc_exe_paths DragonNest.exe; loader_path SDO_WEGAME/sdologin/Launcher64.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2001097/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "SDO Launcher.exe/Launcher64.exe and DNHelper are login/helper components and excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2001933",
+  "status": "verified",
+  "names": {
+    "zh-CN": "异人之下"
+  },
+  "platform": "wegame",
+  "platformId": "2001933",
+  "executables": [
+    {
+      "name": "YiRenZhiXia.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2001933 = 异人之下; loader_path and file_signatures_1 YiRenZhiXia.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2001933/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "UC64.exe excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

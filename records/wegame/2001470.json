@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2001470",
+  "status": "verified",
+  "names": {
+    "zh-CN": "装甲战争",
+    "en": "Armored Warfare"
+  },
+  "platform": "wegame",
+  "platformId": "2001470",
+  "executables": [
+    {
+      "name": "armoredwarfare.exe",
+      "relativePath": "bin64/armoredwarfare.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2001470 = 装甲战争; loader_path and file_signatures_1 bin64\\armoredwarfare.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2001470/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "GameSDK.exe excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

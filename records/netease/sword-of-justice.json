@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "netease:sword-of-justice",
+  "status": "verified",
+  "names": {
+    "en": "SWORD OF JUSTICE",
+    "zh-CN": "逆水寒"
+  },
+  "platform": "netease",
+  "platformId": "sword-of-justice",
+  "executables": [
+    {
+      "name": "nshm.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "Steam PICS appinfo for AppID 2782500 (逆水寒 / SWORD OF JUSTICE, ZhuRong Studio): config.launch executable game/nshm.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/2782500/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "This record covers only the client Steam lists as AppID 2782500. Whether the older 逆水寒 PC MMO client uses this EXE is not confirmed"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2002867",
+  "status": "verified",
+  "names": {
+    "zh-CN": "金铲铲之战",
+    "en": "Fight For Golden Spatula"
+  },
+  "platform": "wegame",
+  "platformId": "2002867",
+  "executables": [
+    {
+      "name": "jkchess_hd.exe",
+      "relativePath": "x64/package/jkchess_hd.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2002867 = 金铲铲之战; loader_path and file_signatures_1 x64\\package\\jkchess_hd.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2002867/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "no launcher in the record"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

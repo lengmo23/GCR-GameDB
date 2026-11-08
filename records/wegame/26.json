@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:26",
+  "status": "verified",
+  "names": {
+    "zh-CN": "英雄联盟",
+    "en": "League of Legends"
+  },
+  "platform": "wegame",
+  "platformId": "26",
+  "executables": [
+    {
+      "name": "League of Legends.exe",
+      "relativePath": "Game/League of Legends.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 26 = 英雄联盟; file_signatures_1 Game\\League of Legends.exe; loader_path TCLS\\Client.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/26/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "TCLS Client.exe, LeagueClient.exe, LeagueClientUx.exe, LolClient.exe and RiotClientServices.exe are launcher/client processes and excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:30",
+  "status": "verified",
+  "names": {
+    "zh-CN": "逆战",
+    "en": "Assault Fire"
+  },
+  "platform": "wegame",
+  "platformId": "30",
+  "executables": [
+    {
+      "name": "TGame.exe",
+      "relativePath": "Binaries/Win64/TGame.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 30 = 逆战; loader_path and file_signatures_1 Binaries\\Win64\\TGame.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/30/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "TCLS client.exe is the launcher and excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2002433",
+  "status": "verified",
+  "names": {
+    "zh-CN": "天堂2：盟约",
+    "en": "L2M"
+  },
+  "platform": "wegame",
+  "platformId": "2002433",
+  "executables": [
+    {
+      "name": "L2M.exe",
+      "relativePath": "LM/Binaries/Win64/L2M.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2002433 = 天堂2：盟约; loader_path and file_signatures_1 LM\\Binaries\\Win64\\L2M.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2002433/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "no launcher in the record"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

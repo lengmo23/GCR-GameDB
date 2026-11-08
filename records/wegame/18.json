@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:18",
+  "status": "verified",
+  "names": {
+    "zh-CN": "寻仙"
+  },
+  "platform": "wegame",
+  "platformId": "18",
+  "executables": [
+    {
+      "name": "tty3d.exe",
+      "relativePath": "release/tty3d.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 18 = 寻仙; acc_exe_paths release\\tty3d.exe; loader_path patcher.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/18/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "patcher.exe, TCLSHost.exe and tcls client.exe are patcher/launcher components and excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

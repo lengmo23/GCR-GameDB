@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:3",
+  "status": "verified",
+  "names": {
+    "zh-CN": "斗战神",
+    "en": "Asura"
+  },
+  "platform": "wegame",
+  "platformId": "3",
+  "executables": [
+    {
+      "name": "Asura.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 3 = 斗战神; acc_exe_paths TCLS\\Client.exe;Asura.exe (loader_path is the TCLS launcher)"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/3/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "TCLS Client.exe is the launcher and excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

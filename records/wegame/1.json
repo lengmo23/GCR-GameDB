@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:1",
+  "status": "verified",
+  "names": {
+    "zh-CN": "地下城与勇士",
+    "en": "Dungeon & Fighter"
+  },
+  "platform": "wegame",
+  "platformId": "1",
+  "executables": [
+    {
+      "name": "dnf.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 1 = 地下城与勇士; loader_path and file_signatures_1 dnf.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/1/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "TCLS client.exe, start/DNFChina.exe and qqlogin.exe are launcher/login components and excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

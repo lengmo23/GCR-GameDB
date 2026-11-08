@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2001788",
+  "status": "verified",
+  "names": {
+    "zh-CN": "新天龙八部怀旧服"
+  },
+  "platform": "wegame",
+  "platformId": "2001788",
+  "executables": [
+    {
+      "name": "Game.exe",
+      "relativePath": "Bin/Game.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2001788 = 新天龙八部怀旧服; multi_loader Launch.exe|Bin/Game.exe; loader_path Launch.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2001788/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Launch.exe and Launch.bin are launchers and excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

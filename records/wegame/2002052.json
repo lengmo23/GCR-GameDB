@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2002052",
+  "status": "verified",
+  "names": {
+    "zh-CN": "流放之路：降临",
+    "en": "Path of Exile 2"
+  },
+  "platform": "wegame",
+  "platformId": "2002052",
+  "executables": [
+    {
+      "name": "PathOfExile_x64.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2002052 = 流放之路：降临; loader_path and file_signatures_1 PathOfExile_x64.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2002052/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "no launcher in the record"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}

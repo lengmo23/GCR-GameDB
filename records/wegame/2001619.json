@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "wegame:2001619",
+  "status": "verified",
+  "names": {
+    "zh-CN": "黑色沙漠",
+    "en": "Black Desert"
+  },
+  "platform": "wegame",
+  "platformId": "2001619",
+  "executables": [
+    {
+      "name": "BlackDesert64_CN.exe",
+      "relativePath": "bin64/BlackDesert64_CN.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "platform_metadata",
+      "source": "WeGame Rail game_info (wegame.com.cn/api/rail/web/data_filter/game_info/by_game_id) game_id 2001619 = 黑色沙漠; loader_path and file_signatures_1 bin64\\BlackDesert64_CN.exe"
+    },
+    {
+      "kind": "official_store",
+      "source": "https://www.wegame.com.cn/store/2001619/"
+    },
+    {
+      "kind": "manual_review",
+      "source": "ACE-Launcher64.exe/ACE-Launcher32.exe are anti-cheat launchers and excluded"
+    }
+  ],
+  "lastVerified": "2026-11-08"
+}
