@@ -23,3 +23,22 @@ jobs:
           git diff --exit-code --
           generated/gamedb-v1.json generated/gamedb-v1.json.sha256
           candidates/gamepp-type1.json candidates/gamepp-type1.json.sha256
+
+  # 客户端主源连不上时走 jsDelivr 镜像，而 jsDelivr 对 @main 有缓存，推送后一段时间仍给旧版
+  # （旧数据与旧 .sha256 互相一致，客户端只会判成「没变」）。校验通过后主动刷新这几份文件。
+  # 刷新失败只告警：数据本身没问题，最多等镜像缓存自然过期。
+  purge-jsdelivr:
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Purge jsDelivr cache for published files
+        run: |
+          for path in generated/gamedb-v1.json generated/gamedb-v1.json.sha256 \
+                      candidates/gamepp-type1.json candidates/gamepp-type1.json.sha256; do
+            url="https://purge.jsdelivr.net/gh/${GITHUB_REPOSITORY}@main/${path}"
+            body=$(curl -sS -m 30 -w '\n%{http_code}' "$url") || { echo "::warning::purge request failed: ${path}"; continue; }
+            code=${body##*$'\n'}
+            echo "${path}: HTTP ${code} ${body%$'\n'*}"
+            [ "$code" = "200" ] || echo "::warning::purge returned HTTP ${code}: ${path}"
+          done

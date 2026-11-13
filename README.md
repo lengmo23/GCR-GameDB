@@ -17,7 +17,7 @@ GameCoreRouter（GCR）与 Game2PL 共用的社区游戏身份库（原仓库名
 
 ## 校验文件
 
-`npm run build` 同时生成 `generated/gamedb-v1.json.sha256` 与 `candidates/gamepp-type1.json.sha256`（`sha256sum` 格式）。客户端从主源（raw.githubusercontent.com）或镜像（jsDelivr）下载数据文件后，从同一来源取对应的 `.sha256` 核对，不一致或取不到就换下一个来源，全部失败时继续用本机缓存。哈希按仓库里存的 LF 字节计算，`.gitattributes` 把 `*.json` 与 `*.sha256` 固定为 LF；改了数据文件必须重新 `npm run build` 并把 `.sha256` 一起提交，CI 会检查两者是否一致。
+`npm run build` 同时生成 `generated/gamedb-v1.json.sha256` 与 `candidates/gamepp-type1.json.sha256`（`sha256sum` 格式）。客户端从主源（raw.githubusercontent.com）或镜像（jsDelivr）下载数据文件后，从同一来源取对应的 `.sha256` 核对，不一致或取不到就换下一个来源，全部失败时继续用本机缓存。哈希按仓库里存的 LF 字节计算，`.gitattributes` 把 `*.json` 与 `*.sha256` 固定为 LF；改了数据文件必须重新 `npm run build` 并把 `.sha256` 一起提交，CI 会检查两者是否一致。推送到 `main` 且校验通过后，CI 会调用 jsDelivr 的 purge 接口刷新这两份数据文件及其 `.sha256`：jsDelivr 对 `@main` 有缓存，不刷新的话主源连不上的客户端在推送后一段时间内仍拿到旧版。刷新失败只告警，不影响校验结果。
 
 ## GamePP 进程名候选
 
