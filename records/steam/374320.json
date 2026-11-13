@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:374320",
+  "status": "verified",
+  "names": {
+    "en": "DARK SOULS™ III"
+  },
+  "platform": "steam",
+  "platformId": "374320",
+  "executables": [
+    {
+      "name": "DarkSoulsIII.exe",
+      "relativePath": "Game/DarkSoulsIII.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/374320/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/374320 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Game/DarkSoulsIII.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

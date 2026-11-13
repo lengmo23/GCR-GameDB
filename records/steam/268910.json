@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:268910",
+  "status": "verified",
+  "names": {
+    "en": "Cuphead"
+  },
+  "platform": "steam",
+  "platformId": "268910",
+  "executables": [
+    {
+      "name": "Cuphead.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/268910/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/268910 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Cuphead.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

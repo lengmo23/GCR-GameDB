@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:242760",
+  "status": "verified",
+  "names": {
+    "en": "The Forest"
+  },
+  "platform": "steam",
+  "platformId": "242760",
+  "executables": [
+    {
+      "name": "TheForest.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/242760/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/242760 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TheForest.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

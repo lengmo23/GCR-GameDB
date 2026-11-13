@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1203620",
+  "status": "verified",
+  "names": {
+    "en": "Enshrouded",
+    "zh-CN": "雾锁王国 (Enshrouded)"
+  },
+  "platform": "steam",
+  "platformId": "1203620",
+  "executables": [
+    {
+      "name": "enshrouded.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1203620/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1203620 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is enshrouded.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

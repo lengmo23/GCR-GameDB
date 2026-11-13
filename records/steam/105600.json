@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:105600",
+  "status": "verified",
+  "names": {
+    "en": "Terraria"
+  },
+  "platform": "steam",
+  "platformId": "105600",
+  "executables": [
+    {
+      "name": "Terraria.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/105600/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/105600 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Terraria.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

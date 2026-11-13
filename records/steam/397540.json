@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:397540",
+  "status": "verified",
+  "names": {
+    "en": "Borderlands 3",
+    "zh-CN": "无主之地3"
+  },
+  "platform": "steam",
+  "platformId": "397540",
+  "executables": [
+    {
+      "name": "Borderlands3.exe",
+      "relativePath": "OakGame/Binaries/Win64/Borderlands3.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/397540/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/397540 Steam PICS appinfo: common.type=Game, Windows launch entry 5 on the default branch is OakGame/Binaries/Win64/Borderlands3.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

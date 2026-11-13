@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:848450",
+  "status": "verified",
+  "names": {
+    "en": "Subnautica: Below Zero",
+    "zh-CN": "深海迷航：冰点之下"
+  },
+  "platform": "steam",
+  "platformId": "848450",
+  "executables": [
+    {
+      "name": "SubnauticaZero.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/848450/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/848450 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is SubnauticaZero.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

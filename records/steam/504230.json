@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:504230",
+  "status": "verified",
+  "names": {
+    "en": "Celeste"
+  },
+  "platform": "steam",
+  "platformId": "504230",
+  "executables": [
+    {
+      "name": "Celeste.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/504230/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/504230 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Celeste.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T00:00:00.000Z",
+  "generatedAt": "2026-11-13T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -438,6 +438,66 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:105600",
+      "status": "verified",
+      "names": {
+        "en": "Terraria"
+      },
+      "platform": "steam",
+      "platformId": "105600",
+      "executables": [
+        {
+          "name": "Terraria.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/105600/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/105600 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Terraria.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:108600",
+      "status": "verified",
+      "names": {
+        "en": "Project Zomboid"
+      },
+      "platform": "steam",
+      "platformId": "108600",
+      "executables": [
+        {
+          "name": "ProjectZomboid64.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/108600/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/108600 Steam PICS appinfo: common.type=Game, Windows launch entry 8 on the default branch is ProjectZomboid64.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1086940",
       "status": "verified",
       "names": {
@@ -496,6 +556,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1145350",
+      "status": "verified",
+      "names": {
+        "en": "Hades II"
+      },
+      "platform": "steam",
+      "platformId": "1145350",
+      "executables": [
+        {
+          "name": "Hades2.exe",
+          "relativePath": "Ship/Hades2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1145350/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1145350 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is Ship/Hades2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1151340",
       "status": "verified",
       "names": {
@@ -519,6 +610,36 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1151640",
+      "status": "verified",
+      "names": {
+        "en": "Horizon Zero Dawn™ Complete Edition"
+      },
+      "platform": "steam",
+      "platformId": "1151640",
+      "executables": [
+        {
+          "name": "HorizonZeroDawn.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1151640/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1151640 Steam PICS appinfo: common.type=Game, Windows launch entry 4 on the default branch is HorizonZeroDawn.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
     },
     {
       "schemaVersion": 1,
@@ -597,6 +718,98 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1203620",
+      "status": "verified",
+      "names": {
+        "en": "Enshrouded",
+        "zh-CN": "雾锁王国 (Enshrouded)"
+      },
+      "platform": "steam",
+      "platformId": "1203620",
+      "executables": [
+        {
+          "name": "enshrouded.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1203620/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1203620 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is enshrouded.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1325200",
+      "status": "verified",
+      "names": {
+        "en": "Nioh 2 – The Complete Edition",
+        "zh-CN": "仁王２ Complete Edition"
+      },
+      "platform": "steam",
+      "platformId": "1325200",
+      "executables": [
+        {
+          "name": "nioh2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1325200/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1325200 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is nioh2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1326470",
+      "status": "verified",
+      "names": {
+        "en": "Sons Of The Forest"
+      },
+      "platform": "steam",
+      "platformId": "1326470",
+      "executables": [
+        {
+          "name": "SonsOfTheForest.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1326470/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1326470 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is SonsOfTheForest.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
     },
     {
       "schemaVersion": 1,
@@ -679,6 +892,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1551360",
+      "status": "verified",
+      "names": {
+        "en": "Forza Horizon 5",
+        "zh-CN": "极限竞速：地平线 5"
+      },
+      "platform": "steam",
+      "platformId": "1551360",
+      "executables": [
+        {
+          "name": "ForzaHorizon5.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1551360/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1551360 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is ForzaHorizon5.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1716740",
       "status": "verified",
       "names": {
@@ -705,6 +949,129 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1771300",
+      "status": "verified",
+      "names": {
+        "en": "Kingdom Come: Deliverance II",
+        "zh-CN": "天国：拯救2"
+      },
+      "platform": "steam",
+      "platformId": "1771300",
+      "executables": [
+        {
+          "name": "KingdomCome.exe",
+          "relativePath": "Bin/Win64MasterMasterSteamPGO/KingdomCome.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1771300/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1771300 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Bin/Win64MasterMasterSteamPGO/KingdomCome.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1794680",
+      "status": "verified",
+      "names": {
+        "en": "Vampire Survivors",
+        "zh-CN": "Vampire Survivors - 吸血鬼幸存者"
+      },
+      "platform": "steam",
+      "platformId": "1794680",
+      "executables": [
+        {
+          "name": "VampireSurvivors.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1794680/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1794680 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is VampireSurvivors.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1817070",
+      "status": "verified",
+      "names": {
+        "en": "Marvel’s Spider-Man Remastered"
+      },
+      "platform": "steam",
+      "platformId": "1817070",
+      "executables": [
+        {
+          "name": "Spider-Man.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1817070/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1817070 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Spider-Man.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1817190",
+      "status": "verified",
+      "names": {
+        "en": "Marvel’s Spider-Man: Miles Morales"
+      },
+      "platform": "steam",
+      "platformId": "1817190",
+      "executables": [
+        {
+          "name": "MilesMorales.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1817190/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1817190 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is MilesMorales.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1905180",
       "status": "rejected",
       "names": {
@@ -724,6 +1091,36 @@
         }
       ],
       "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1966720",
+      "status": "verified",
+      "names": {
+        "en": "Lethal Company"
+      },
+      "platform": "steam",
+      "platformId": "1966720",
+      "executables": [
+        {
+          "name": "Lethal Company.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1966720/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1966720 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Lethal Company.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
     },
     {
       "schemaVersion": 1,
@@ -753,6 +1150,99 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:2215430",
+      "status": "verified",
+      "names": {
+        "en": "Ghost of Tsushima DIRECTOR'S CUT",
+        "zh-CN": "Ghost of Tsushima导演剪辑版"
+      },
+      "platform": "steam",
+      "platformId": "2215430",
+      "executables": [
+        {
+          "name": "GhostOfTsushima.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2215430/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2215430 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is GhostOfTsushima.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2221490",
+      "status": "verified",
+      "names": {
+        "en": "Tom Clancy’s The Division® 2",
+        "zh-CN": "全境封锁2"
+      },
+      "platform": "steam",
+      "platformId": "2221490",
+      "executables": [
+        {
+          "name": "TheDivision2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2221490/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2221490 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TheDivision2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:227300",
+      "status": "verified",
+      "names": {
+        "en": "Euro Truck Simulator 2"
+      },
+      "platform": "steam",
+      "platformId": "227300",
+      "executables": [
+        {
+          "name": "eurotrucks2.exe",
+          "relativePath": "bin/win_x64/eurotrucks2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/227300/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/227300 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is bin/win_x64/eurotrucks2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:230410",
       "status": "verified",
       "names": {
@@ -776,6 +1266,313 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:233860",
+      "status": "verified",
+      "names": {
+        "en": "Kenshi"
+      },
+      "platform": "steam",
+      "platformId": "233860",
+      "executables": [
+        {
+          "name": "kenshi_x64.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/233860/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/233860 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is kenshi_x64.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2357570",
+      "status": "verified",
+      "names": {
+        "en": "Overwatch®",
+        "zh-CN": "《守望先锋®》"
+      },
+      "platform": "steam",
+      "platformId": "2357570",
+      "executables": [
+        {
+          "name": "Overwatch.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2357570/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2357570 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Overwatch.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:239140",
+      "status": "verified",
+      "names": {
+        "en": "Dying Light"
+      },
+      "platform": "steam",
+      "platformId": "239140",
+      "executables": [
+        {
+          "name": "DyingLightGame.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/239140/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/239140 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is DyingLightGame.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2420110",
+      "status": "verified",
+      "names": {
+        "en": "Horizon Forbidden West™ Complete Edition",
+        "zh-CN": "《地平线 西之绝境™》完整版"
+      },
+      "platform": "steam",
+      "platformId": "2420110",
+      "executables": [
+        {
+          "name": "HorizonForbiddenWest.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2420110/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2420110 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is HorizonForbiddenWest.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:242760",
+      "status": "verified",
+      "names": {
+        "en": "The Forest"
+      },
+      "platform": "steam",
+      "platformId": "242760",
+      "executables": [
+        {
+          "name": "TheForest.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/242760/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/242760 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TheForest.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:264710",
+      "status": "verified",
+      "names": {
+        "en": "Subnautica",
+        "zh-CN": "Subnautica - 深海迷航"
+      },
+      "platform": "steam",
+      "platformId": "264710",
+      "executables": [
+        {
+          "name": "Subnautica.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/264710/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/264710 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Subnautica.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:268910",
+      "status": "verified",
+      "names": {
+        "en": "Cuphead"
+      },
+      "platform": "steam",
+      "platformId": "268910",
+      "executables": [
+        {
+          "name": "Cuphead.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/268910/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/268910 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Cuphead.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:275850",
+      "status": "verified",
+      "names": {
+        "en": "No Man's Sky",
+        "zh-CN": "No Man's Sky 无人深空"
+      },
+      "platform": "steam",
+      "platformId": "275850",
+      "executables": [
+        {
+          "name": "NMS.exe",
+          "relativePath": "Binaries/NMS.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/275850/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/275850 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Binaries/NMS.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:359550",
+      "status": "verified",
+      "names": {
+        "en": "Tom Clancy's Rainbow Six Siege",
+        "zh-CN": "彩虹六号：围攻"
+      },
+      "platform": "steam",
+      "platformId": "359550",
+      "executables": [
+        {
+          "name": "RainbowSix.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/359550/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/359550 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is RainbowSix.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:374320",
+      "status": "verified",
+      "names": {
+        "en": "DARK SOULS™ III"
+      },
+      "platform": "steam",
+      "platformId": "374320",
+      "executables": [
+        {
+          "name": "DarkSoulsIII.exe",
+          "relativePath": "Game/DarkSoulsIII.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/374320/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/374320 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Game/DarkSoulsIII.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
     },
     {
       "schemaVersion": 1,
@@ -805,6 +1602,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:379430",
+      "status": "verified",
+      "names": {
+        "en": "Kingdom Come: Deliverance"
+      },
+      "platform": "steam",
+      "platformId": "379430",
+      "executables": [
+        {
+          "name": "KingdomCome.exe",
+          "relativePath": "Bin/Win64/KingdomCome.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/379430/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/379430 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Bin/Win64/KingdomCome.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:379720",
       "status": "verified",
       "names": {
@@ -828,6 +1656,38 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:397540",
+      "status": "verified",
+      "names": {
+        "en": "Borderlands 3",
+        "zh-CN": "无主之地3"
+      },
+      "platform": "steam",
+      "platformId": "397540",
+      "executables": [
+        {
+          "name": "Borderlands3.exe",
+          "relativePath": "OakGame/Binaries/Win64/Borderlands3.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/397540/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/397540 Steam PICS appinfo: common.type=Game, Windows launch entry 5 on the default branch is OakGame/Binaries/Win64/Borderlands3.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
     },
     {
       "schemaVersion": 1,
@@ -914,6 +1774,127 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:504230",
+      "status": "verified",
+      "names": {
+        "en": "Celeste"
+      },
+      "platform": "steam",
+      "platformId": "504230",
+      "executables": [
+        {
+          "name": "Celeste.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/504230/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/504230 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Celeste.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:524220",
+      "status": "verified",
+      "names": {
+        "en": "NieR:Automata™"
+      },
+      "platform": "steam",
+      "platformId": "524220",
+      "executables": [
+        {
+          "name": "NieRAutomata.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/524220/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/524220 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is NieRAutomata.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:550",
+      "status": "verified",
+      "names": {
+        "en": "Left 4 Dead 2"
+      },
+      "platform": "steam",
+      "platformId": "550",
+      "executables": [
+        {
+          "name": "left4dead2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/550/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/550 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is left4dead2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:570",
+      "status": "verified",
+      "names": {
+        "en": "Dota 2"
+      },
+      "platform": "steam",
+      "platformId": "570",
+      "executables": [
+        {
+          "name": "dota2.exe",
+          "relativePath": "game/bin/win64/dota2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/570/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/570 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is game/bin/win64/dota2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:578080",
       "status": "verified",
       "names": {
@@ -967,6 +1948,66 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:601150",
+      "status": "verified",
+      "names": {
+        "en": "Devil May Cry 5"
+      },
+      "platform": "steam",
+      "platformId": "601150",
+      "executables": [
+        {
+          "name": "DevilMayCry5.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/601150/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/601150 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is DevilMayCry5.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:620",
+      "status": "verified",
+      "names": {
+        "en": "Portal 2"
+      },
+      "platform": "steam",
+      "platformId": "620",
+      "executables": [
+        {
+          "name": "portal2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/620/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/620 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is portal2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:730",
       "status": "verified",
       "names": {
@@ -991,6 +2032,37 @@
         }
       ],
       "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:739630",
+      "status": "verified",
+      "names": {
+        "en": "Phasmophobia",
+        "zh-CN": "Phasmophobia 恐鬼症"
+      },
+      "platform": "steam",
+      "platformId": "739630",
+      "executables": [
+        {
+          "name": "Phasmophobia.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/739630/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/739630 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is Phasmophobia.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
     },
     {
       "schemaVersion": 1,
@@ -1020,6 +2092,128 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:814380",
+      "status": "verified",
+      "names": {
+        "en": "Sekiro™: Shadows Die Twice - GOTY Edition"
+      },
+      "platform": "steam",
+      "platformId": "814380",
+      "executables": [
+        {
+          "name": "sekiro.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/814380/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/814380 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is sekiro.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:848450",
+      "status": "verified",
+      "names": {
+        "en": "Subnautica: Below Zero",
+        "zh-CN": "深海迷航：冰点之下"
+      },
+      "platform": "steam",
+      "platformId": "848450",
+      "executables": [
+        {
+          "name": "SubnauticaZero.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/848450/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/848450 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is SubnauticaZero.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:892970",
+      "status": "verified",
+      "names": {
+        "en": "Valheim",
+        "zh-CN": "Valheim: 英灵神殿"
+      },
+      "platform": "steam",
+      "platformId": "892970",
+      "executables": [
+        {
+          "name": "valheim.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/892970/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/892970 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is valheim.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:945360",
+      "status": "verified",
+      "names": {
+        "en": "Among Us"
+      },
+      "platform": "steam",
+      "platformId": "945360",
+      "executables": [
+        {
+          "name": "Among Us.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/945360/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/945360 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Among Us.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:952060",
       "status": "verified",
       "names": {
@@ -1043,6 +2237,37 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:990080",
+      "status": "verified",
+      "names": {
+        "en": "Hogwarts Legacy",
+        "zh-CN": "霍格沃茨之遗"
+      },
+      "platform": "steam",
+      "platformId": "990080",
+      "executables": [
+        {
+          "name": "HogwartsLegacy.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/990080/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/990080 Steam PICS appinfo: common.type=Game, Windows launch entry 13 on the default branch is HogwartsLegacy.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+        }
+      ],
+      "lastVerified": "2026-11-13"
     },
     {
       "schemaVersion": 1,

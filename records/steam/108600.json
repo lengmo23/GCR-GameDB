@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:108600",
+  "status": "verified",
+  "names": {
+    "en": "Project Zomboid"
+  },
+  "platform": "steam",
+  "platformId": "108600",
+  "executables": [
+    {
+      "name": "ProjectZomboid64.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/108600/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/108600 Steam PICS appinfo: common.type=Game, Windows launch entry 8 on the default branch is ProjectZomboid64.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

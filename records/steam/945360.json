@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:945360",
+  "status": "verified",
+  "names": {
+    "en": "Among Us"
+  },
+  "platform": "steam",
+  "platformId": "945360",
+  "executables": [
+    {
+      "name": "Among Us.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/945360/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/945360 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Among Us.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

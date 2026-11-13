@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:379430",
+  "status": "verified",
+  "names": {
+    "en": "Kingdom Come: Deliverance"
+  },
+  "platform": "steam",
+  "platformId": "379430",
+  "executables": [
+    {
+      "name": "KingdomCome.exe",
+      "relativePath": "Bin/Win64/KingdomCome.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/379430/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/379430 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Bin/Win64/KingdomCome.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

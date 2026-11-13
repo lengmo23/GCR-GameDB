@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:739630",
+  "status": "verified",
+  "names": {
+    "en": "Phasmophobia",
+    "zh-CN": "Phasmophobia 恐鬼症"
+  },
+  "platform": "steam",
+  "platformId": "739630",
+  "executables": [
+    {
+      "name": "Phasmophobia.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/739630/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/739630 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is Phasmophobia.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

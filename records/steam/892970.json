@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:892970",
+  "status": "verified",
+  "names": {
+    "en": "Valheim",
+    "zh-CN": "Valheim: 英灵神殿"
+  },
+  "platform": "steam",
+  "platformId": "892970",
+  "executables": [
+    {
+      "name": "valheim.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/892970/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/892970 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is valheim.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

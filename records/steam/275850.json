@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:275850",
+  "status": "verified",
+  "names": {
+    "en": "No Man's Sky",
+    "zh-CN": "No Man's Sky 无人深空"
+  },
+  "platform": "steam",
+  "platformId": "275850",
+  "executables": [
+    {
+      "name": "NMS.exe",
+      "relativePath": "Binaries/NMS.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/275850/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/275850 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Binaries/NMS.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

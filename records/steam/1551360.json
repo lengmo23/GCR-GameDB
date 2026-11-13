@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1551360",
+  "status": "verified",
+  "names": {
+    "en": "Forza Horizon 5",
+    "zh-CN": "极限竞速：地平线 5"
+  },
+  "platform": "steam",
+  "platformId": "1551360",
+  "executables": [
+    {
+      "name": "ForzaHorizon5.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1551360/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1551360 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is ForzaHorizon5.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

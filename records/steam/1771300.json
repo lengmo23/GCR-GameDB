@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1771300",
+  "status": "verified",
+  "names": {
+    "en": "Kingdom Come: Deliverance II",
+    "zh-CN": "天国：拯救2"
+  },
+  "platform": "steam",
+  "platformId": "1771300",
+  "executables": [
+    {
+      "name": "KingdomCome.exe",
+      "relativePath": "Bin/Win64MasterMasterSteamPGO/KingdomCome.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1771300/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1771300 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Bin/Win64MasterMasterSteamPGO/KingdomCome.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}

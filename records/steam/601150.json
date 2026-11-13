@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:601150",
+  "status": "verified",
+  "names": {
+    "en": "Devil May Cry 5"
+  },
+  "platform": "steam",
+  "platformId": "601150",
+  "executables": [
+    {
+      "name": "DevilMayCry5.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/601150/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/601150 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is DevilMayCry5.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "Rule B (PICS launch filename equals candidate), 2026-11-13; launcher, updater, anti-cheat bootstrap and tool entries excluded"
+    }
+  ],
+  "lastVerified": "2026-11-13"
+}
