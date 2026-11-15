@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-13T00:00:00.000Z",
+  "generatedAt": "2026-11-15T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -556,6 +556,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1093320",
+      "status": "verified",
+      "names": {
+        "en": "Devil's Deck"
+      },
+      "platform": "steam",
+      "platformId": "1093320",
+      "executables": [
+        {
+          "name": "Devil'sDeck.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1093320/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1093320 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Devil'sDeck.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1145350",
       "status": "verified",
       "names": {
@@ -949,6 +979,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:17710",
+      "status": "verified",
+      "names": {
+        "en": "Nuclear Dawn"
+      },
+      "platform": "steam",
+      "platformId": "17710",
+      "executables": [
+        {
+          "name": "nucleardawn.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/17710/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/17710 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is nucleardawn.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1771300",
       "status": "verified",
       "names": {
@@ -1330,6 +1390,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:237630",
+      "status": "verified",
+      "names": {
+        "en": "DuckTales: Remastered"
+      },
+      "platform": "steam",
+      "platformId": "237630",
+      "executables": [
+        {
+          "name": "DuckTales.exe",
+          "relativePath": "Executable/DuckTales.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/237630/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/237630 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Executable/DuckTales.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:239140",
       "status": "verified",
       "names": {
@@ -1421,6 +1512,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:257750",
+      "status": "verified",
+      "names": {
+        "en": "Bloody Trapland"
+      },
+      "platform": "steam",
+      "platformId": "257750",
+      "executables": [
+        {
+          "name": "Bloody Trapland.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/257750/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/257750 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Bloody Trapland.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:264710",
       "status": "verified",
       "names": {
@@ -1482,6 +1603,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:2716930",
+      "status": "verified",
+      "names": {
+        "en": "The Emperor and State",
+        "zh-CN": "皇帝与社稷"
+      },
+      "platform": "steam",
+      "platformId": "2716930",
+      "executables": [
+        {
+          "name": "TheEmperorAndState.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2716930/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2716930 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TheEmperorAndState.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:275850",
       "status": "verified",
       "names": {
@@ -1511,6 +1663,66 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:308040",
+      "status": "verified",
+      "names": {
+        "en": "Back to Bed"
+      },
+      "platform": "steam",
+      "platformId": "308040",
+      "executables": [
+        {
+          "name": "BackToBed.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/308040/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/308040 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is BackToBed.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:333600",
+      "status": "verified",
+      "names": {
+        "en": "NEKOPARA Vol. 1"
+      },
+      "platform": "steam",
+      "platformId": "333600",
+      "executables": [
+        {
+          "name": "nekopara_vol1.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/333600/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/333600 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is nekopara_vol1.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-15"
     },
     {
       "schemaVersion": 1,
@@ -1573,6 +1785,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:374830",
+      "status": "verified",
+      "names": {
+        "en": "Defend The Highlands"
+      },
+      "platform": "steam",
+      "platformId": "374830",
+      "executables": [
+        {
+          "name": "Defend the Highlands.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/374830/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/374830 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Defend the Highlands.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-15"
     },
     {
       "schemaVersion": 1,
@@ -1978,6 +2220,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:602960",
+      "status": "verified",
+      "names": {
+        "en": "Barotrauma",
+        "zh-CN": "Barotrauma 潜渊症"
+      },
+      "platform": "steam",
+      "platformId": "602960",
+      "executables": [
+        {
+          "name": "Barotrauma.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/602960/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/602960 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Barotrauma.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:620",
       "status": "verified",
       "names": {
@@ -2005,6 +2278,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:706240",
+      "status": "verified",
+      "names": {
+        "en": "Gravity Light"
+      },
+      "platform": "steam",
+      "platformId": "706240",
+      "executables": [
+        {
+          "name": "GravityLight.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/706240/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/706240 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is GravityLight.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-15"
     },
     {
       "schemaVersion": 1,

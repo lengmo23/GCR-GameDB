@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:2716930",
+  "status": "verified",
+  "names": {
+    "en": "The Emperor and State",
+    "zh-CN": "皇帝与社稷"
+  },
+  "platform": "steam",
+  "platformId": "2716930",
+  "executables": [
+    {
+      "name": "TheEmperorAndState.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/2716930/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/2716930 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TheEmperorAndState.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-15"
+}
