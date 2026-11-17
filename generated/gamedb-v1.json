@@ -646,6 +646,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1132030",
+      "status": "verified",
+      "names": {
+        "en": "Trash Sailors: Co-Op Trash Raft Simulator",
+        "zh-CN": "垃圾水手 "
+      },
+      "platform": "steam",
+      "platformId": "1132030",
+      "executables": [
+        {
+          "name": "Trash Sailors.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1132030/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1132030 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Trash Sailors.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1145350",
       "status": "verified",
       "names": {
@@ -839,6 +870,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1274800",
+      "status": "verified",
+      "names": {
+        "en": "Pancake Sailor"
+      },
+      "platform": "steam",
+      "platformId": "1274800",
+      "executables": [
+        {
+          "name": "pancake_sailor.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1274800/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1274800 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is pancake_sailor.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
     },
     {
       "schemaVersion": 1,
@@ -1632,6 +1693,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:264140",
+      "status": "verified",
+      "names": {
+        "en": "Pixel Piracy"
+      },
+      "platform": "steam",
+      "platformId": "264140",
+      "executables": [
+        {
+          "name": "PixelPiracy.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/264140/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/264140 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is PixelPiracy.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:264710",
       "status": "verified",
       "names": {
@@ -1753,6 +1844,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2837600",
+      "status": "verified",
+      "names": {
+        "en": "The Alto Collection"
+      },
+      "platform": "steam",
+      "platformId": "2837600",
+      "executables": [
+        {
+          "name": "The Alto Collection.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2837600/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2837600 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is The Alto Collection.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
     },
     {
       "schemaVersion": 1,
@@ -2108,6 +2229,36 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:428630",
+      "status": "verified",
+      "names": {
+        "en": "White Mirror"
+      },
+      "platform": "steam",
+      "platformId": "428630",
+      "executables": [
+        {
+          "name": "White Mirror.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/428630/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/428630 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is White Mirror.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
     },
     {
       "schemaVersion": 1,
@@ -2492,6 +2643,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:723890",
+      "status": "verified",
+      "names": {
+        "en": "Don't Make Love"
+      },
+      "platform": "steam",
+      "platformId": "723890",
+      "executables": [
+        {
+          "name": "dontmakelove.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/723890/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/723890 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is dontmakelove.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:724870",
       "status": "verified",
       "names": {
@@ -2667,6 +2848,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:815950",
+      "status": "verified",
+      "names": {
+        "en": "Chocolate makes you happy 4"
+      },
+      "platform": "steam",
+      "platformId": "815950",
+      "executables": [
+        {
+          "name": "Chocolate makes you happy 4.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/815950/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/815950 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Chocolate makes you happy 4.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:840930",
       "status": "verified",
       "names": {
@@ -2789,6 +3000,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:907460",
+      "status": "verified",
+      "names": {
+        "en": "Girlfriend Cards"
+      },
+      "platform": "steam",
+      "platformId": "907460",
+      "executables": [
+        {
+          "name": "GirlfriendCards.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/907460/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/907460 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is GirlfriendCards.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:945360",
       "status": "verified",
       "names": {
@@ -2842,6 +3083,36 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:974950",
+      "status": "verified",
+      "names": {
+        "en": "DAMNOSAUR"
+      },
+      "platform": "steam",
+      "platformId": "974950",
+      "executables": [
+        {
+          "name": "Damnosaur.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/974950/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/974950 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Damnosaur.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
     },
     {
       "schemaVersion": 1,
