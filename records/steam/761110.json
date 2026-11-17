@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:761110",
+  "status": "verified",
+  "names": {
+    "en": "Infinity Escape"
+  },
+  "platform": "steam",
+  "platformId": "761110",
+  "executables": [
+    {
+      "name": "InfinityEscape.exe",
+      "relativePath": "win32/InfinityEscape.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/761110/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/761110 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is win32/InfinityEscape.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-18"
+}

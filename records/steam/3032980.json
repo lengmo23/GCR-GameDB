@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:3032980",
+  "status": "verified",
+  "names": {
+    "en": "Anomalous Crossing ~Shibuya~",
+    "zh-CN": "Anomalous Crossing ~Shibuya~ | 異変交差点 ～渋谷～"
+  },
+  "platform": "steam",
+  "platformId": "3032980",
+  "executables": [
+    {
+      "name": "AnomalousCrossing -SHIBUYA-.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/3032980/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/3032980 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is AnomalousCrossing -SHIBUYA-.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-18"
+}

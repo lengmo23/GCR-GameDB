@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-15T00:00:00.000Z",
+  "generatedAt": "2026-11-18T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -468,6 +468,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1062100",
+      "status": "verified",
+      "names": {
+        "en": "HaberDashers"
+      },
+      "platform": "steam",
+      "platformId": "1062100",
+      "executables": [
+        {
+          "name": "HaberDashers.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1062100/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1062100 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is HaberDashers.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:108600",
       "status": "verified",
       "names": {
@@ -583,6 +613,36 @@
         }
       ],
       "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1104330",
+      "status": "verified",
+      "names": {
+        "en": "Founders' Fortune"
+      },
+      "platform": "steam",
+      "platformId": "1104330",
+      "executables": [
+        {
+          "name": "Founders Fortune.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1104330/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1104330 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Founders Fortune.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
     },
     {
       "schemaVersion": 1,
@@ -893,6 +953,36 @@
         }
       ],
       "lastVerified": "2026-10-26"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1427960",
+      "status": "verified",
+      "names": {
+        "en": "Jigsaw Boom"
+      },
+      "platform": "steam",
+      "platformId": "1427960",
+      "executables": [
+        {
+          "name": "JigsawBoom.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1427960/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1427960 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is JigsawBoom.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
     },
     {
       "schemaVersion": 1,
@@ -1666,6 +1756,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:3032980",
+      "status": "verified",
+      "names": {
+        "en": "Anomalous Crossing ~Shibuya~",
+        "zh-CN": "Anomalous Crossing ~Shibuya~ | 異変交差点 ～渋谷～"
+      },
+      "platform": "steam",
+      "platformId": "3032980",
+      "executables": [
+        {
+          "name": "AnomalousCrossing -SHIBUYA-.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/3032980/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/3032980 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is AnomalousCrossing -SHIBUYA-.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:308040",
       "status": "verified",
       "names": {
@@ -2190,6 +2311,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:582110",
+      "status": "verified",
+      "names": {
+        "en": "Baskhead Training"
+      },
+      "platform": "steam",
+      "platformId": "582110",
+      "executables": [
+        {
+          "name": "Baskhead Training.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/582110/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/582110 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Baskhead Training.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:601150",
       "status": "verified",
       "names": {
@@ -2281,6 +2432,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:640380",
+      "status": "verified",
+      "names": {
+        "en": "UBERMOSH Vol.5"
+      },
+      "platform": "steam",
+      "platformId": "640380",
+      "executables": [
+        {
+          "name": "UBERMOSH Vol5.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/640380/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/640380 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is UBERMOSH Vol5.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:706240",
       "status": "verified",
       "names": {
@@ -2308,6 +2489,36 @@
         }
       ],
       "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:724870",
+      "status": "verified",
+      "names": {
+        "en": "Glorious Noon"
+      },
+      "platform": "steam",
+      "platformId": "724870",
+      "executables": [
+        {
+          "name": "Glorious_Noon.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/724870/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/724870 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Glorious_Noon.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
     },
     {
       "schemaVersion": 1,
@@ -2369,6 +2580,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:761110",
+      "status": "verified",
+      "names": {
+        "en": "Infinity Escape"
+      },
+      "platform": "steam",
+      "platformId": "761110",
+      "executables": [
+        {
+          "name": "InfinityEscape.exe",
+          "relativePath": "win32/InfinityEscape.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/761110/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/761110 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is win32/InfinityEscape.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:782330",
       "status": "verified",
       "names": {
@@ -2425,6 +2667,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:840930",
+      "status": "verified",
+      "names": {
+        "en": "Bing Bong XL"
+      },
+      "platform": "steam",
+      "platformId": "840930",
+      "executables": [
+        {
+          "name": "BingBongXL.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/840930/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/840930 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is BingBongXL.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:848450",
       "status": "verified",
       "names": {
@@ -2453,6 +2725,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:864570",
+      "status": "verified",
+      "names": {
+        "en": "Chocolate makes you happy 6"
+      },
+      "platform": "steam",
+      "platformId": "864570",
+      "executables": [
+        {
+          "name": "Chocolate makes you happy 6.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/864570/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/864570 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Chocolate makes you happy 6.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-18"
     },
     {
       "schemaVersion": 1,
