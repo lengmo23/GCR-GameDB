@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:2837600",
+  "status": "verified",
+  "names": {
+    "en": "The Alto Collection"
+  },
+  "platform": "steam",
+  "platformId": "2837600",
+  "executables": [
+    {
+      "name": "The Alto Collection.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/2837600/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/2837600 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is The Alto Collection.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-18"
+}

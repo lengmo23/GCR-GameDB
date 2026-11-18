@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:333600",
+  "status": "verified",
+  "names": {
+    "en": "NEKOPARA Vol. 1"
+  },
+  "platform": "steam",
+  "platformId": "333600",
+  "executables": [
+    {
+      "name": "nekopara_vol1.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/333600/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/333600 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is nekopara_vol1.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-15; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-15"
+}

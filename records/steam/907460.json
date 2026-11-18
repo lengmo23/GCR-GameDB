@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:907460",
+  "status": "verified",
+  "names": {
+    "en": "Girlfriend Cards"
+  },
+  "platform": "steam",
+  "platformId": "907460",
+  "executables": [
+    {
+      "name": "GirlfriendCards.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/907460/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/907460 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is GirlfriendCards.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-18"
+}

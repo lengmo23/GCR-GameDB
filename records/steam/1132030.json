@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1132030",
+  "status": "verified",
+  "names": {
+    "en": "Trash Sailors: Co-Op Trash Raft Simulator",
+    "zh-CN": "垃圾水手 "
+  },
+  "platform": "steam",
+  "platformId": "1132030",
+  "executables": [
+    {
+      "name": "Trash Sailors.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1132030/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1132030 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Trash Sailors.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-18; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-18"
+}
