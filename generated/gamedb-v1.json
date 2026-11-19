@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-19T00:00:00.000Z",
+  "generatedAt": "2026-11-20T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -876,6 +876,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1176470",
+      "status": "verified",
+      "names": {
+        "en": "Terra Invicta",
+        "zh-CN": "地球不屈 Terra Invicta"
+      },
+      "platform": "steam",
+      "platformId": "1176470",
+      "executables": [
+        {
+          "name": "TerraInvicta.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1176470/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1176470 Steam PICS appinfo: common.type=Game, Windows launch entry 13 on the default branch is TerraInvicta.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1196590",
       "status": "verified",
       "names": {
@@ -1020,6 +1051,38 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1286680",
+      "status": "verified",
+      "names": {
+        "en": "Tiny Tina's Wonderlands",
+        "zh-CN": "小缇娜的奇幻之地"
+      },
+      "platform": "steam",
+      "platformId": "1286680",
+      "executables": [
+        {
+          "name": "Wonderlands.exe",
+          "relativePath": "OakGame/Binaries/Win64/Wonderlands.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1286680/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1286680 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is OakGame/Binaries/Win64/Wonderlands.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
     },
     {
       "schemaVersion": 1,
@@ -1604,6 +1667,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:2273420",
+      "status": "verified",
+      "names": {
+        "en": "Peeping Dorm Manager"
+      },
+      "platform": "steam",
+      "platformId": "2273420",
+      "executables": [
+        {
+          "name": "Peeping Dorm Manager.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2273420/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2273420 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Peeping Dorm Manager.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:230410",
       "status": "verified",
       "names": {
@@ -2027,6 +2120,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:297120",
+      "status": "verified",
+      "names": {
+        "en": "Heavy Bullets"
+      },
+      "platform": "steam",
+      "platformId": "297120",
+      "executables": [
+        {
+          "name": "HEAVY_BULLETS.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/297120/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/297120 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is HEAVY_BULLETS.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:3032980",
       "status": "verified",
       "names": {
@@ -2115,6 +2238,66 @@
         }
       ],
       "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:312780",
+      "status": "verified",
+      "names": {
+        "en": "Way of the Samurai 4"
+      },
+      "platform": "steam",
+      "platformId": "312780",
+      "executables": [
+        {
+          "name": "WayOfTheSamurai4.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/312780/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/312780 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is WayOfTheSamurai4.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:319780",
+      "status": "verified",
+      "names": {
+        "en": "Airport Simulator 2015"
+      },
+      "platform": "steam",
+      "platformId": "319780",
+      "executables": [
+        {
+          "name": "Airport_2015.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/319780/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/319780 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Airport_2015.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
     },
     {
       "schemaVersion": 1,
@@ -2498,6 +2681,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:501220",
+      "status": "verified",
+      "names": {
+        "en": "Space Ribbon - Slipstream to the Extreme"
+      },
+      "platform": "steam",
+      "platformId": "501220",
+      "executables": [
+        {
+          "name": "SpaceRibbon.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/501220/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/501220 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is SpaceRibbon.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:504230",
       "status": "verified",
       "names": {
@@ -2585,6 +2798,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:559450",
+      "status": "verified",
+      "names": {
+        "en": "Demented Pixie"
+      },
+      "platform": "steam",
+      "platformId": "559450",
+      "executables": [
+        {
+          "name": "demented_pixie.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/559450/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/559450 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is demented_pixie.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
     },
     {
       "schemaVersion": 1,
@@ -2820,6 +3063,36 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:640890",
+      "status": "verified",
+      "names": {
+        "en": "Will Glow the Wisp"
+      },
+      "platform": "steam",
+      "platformId": "640890",
+      "executables": [
+        {
+          "name": "Will Glow the Wisp.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/640890/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/640890 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Will Glow the Wisp.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
     },
     {
       "schemaVersion": 1,
@@ -3415,6 +3688,36 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:980300",
+      "status": "verified",
+      "names": {
+        "en": "One Finger Death Punch 2"
+      },
+      "platform": "steam",
+      "platformId": "980300",
+      "executables": [
+        {
+          "name": "One Finger Death Punch 2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/980300/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/980300 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is One Finger Death Punch 2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
     },
     {
       "schemaVersion": 1,
