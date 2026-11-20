@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1221590",
+  "status": "verified",
+  "names": {
+    "en": "Formula Car Racing Simulator"
+  },
+  "platform": "steam",
+  "platformId": "1221590",
+  "executables": [
+    {
+      "name": "FormulaCarRacingSimulator.exe",
+      "relativePath": "Windows_x86/FormulaCarRacingSimulator.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1221590/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1221590 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is Windows_x86/FormulaCarRacingSimulator.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-21"
+}

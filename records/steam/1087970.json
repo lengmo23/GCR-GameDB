@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1087970",
+  "status": "verified",
+  "names": {
+    "en": "Nevrosa: Spider Song"
+  },
+  "platform": "steam",
+  "platformId": "1087970",
+  "executables": [
+    {
+      "name": "Nevrosa - Spider Song.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1087970/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1087970 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Nevrosa - Spider Song.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-21"
+}

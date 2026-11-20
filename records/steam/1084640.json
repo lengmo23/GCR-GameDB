@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1084640",
+  "status": "verified",
+  "names": {
+    "en": "Chicken Police - Paint it RED!"
+  },
+  "platform": "steam",
+  "platformId": "1084640",
+  "executables": [
+    {
+      "name": "chicken_police.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1084640/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1084640 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is chicken_police.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-21"
+}
