@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:640890",
+  "status": "verified",
+  "names": {
+    "en": "Will Glow the Wisp"
+  },
+  "platform": "steam",
+  "platformId": "640890",
+  "executables": [
+    {
+      "name": "Will Glow the Wisp.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/640890/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/640890 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Will Glow the Wisp.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-20"
+}
