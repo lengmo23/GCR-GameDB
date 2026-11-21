@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:388410",
+  "status": "verified",
+  "names": {
+    "en": "Darksiders II Deathinitive Edition"
+  },
+  "platform": "steam",
+  "platformId": "388410",
+  "executables": [
+    {
+      "name": "Darksiders2.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/388410/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/388410 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Darksiders2.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-22"
+}

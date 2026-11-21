@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1380070",
+  "status": "verified",
+  "names": {
+    "en": "Slaves of Rome"
+  },
+  "platform": "steam",
+  "platformId": "1380070",
+  "executables": [
+    {
+      "name": "SlavesOfRome.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1380070/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1380070 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is SlavesOfRome.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-22"
+}

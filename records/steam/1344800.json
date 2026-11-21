@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1344800",
+  "status": "verified",
+  "names": {
+    "en": "Twin-Turbo Supercharged Nitro-Fueled Papamobile"
+  },
+  "platform": "steam",
+  "platformId": "1344800",
+  "executables": [
+    {
+      "name": "papamobile.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1344800/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1344800 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is papamobile.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-22"
+}
