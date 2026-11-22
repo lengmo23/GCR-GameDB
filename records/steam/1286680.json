@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1286680",
+  "status": "verified",
+  "names": {
+    "en": "Tiny Tina's Wonderlands",
+    "zh-CN": "小缇娜的奇幻之地"
+  },
+  "platform": "steam",
+  "platformId": "1286680",
+  "executables": [
+    {
+      "name": "Wonderlands.exe",
+      "relativePath": "OakGame/Binaries/Win64/Wonderlands.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1286680/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1286680 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is OakGame/Binaries/Win64/Wonderlands.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-20"
+}

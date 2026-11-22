@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-18T00:00:00.000Z",
+  "generatedAt": "2026-11-22T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -438,6 +438,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1045430",
+      "status": "verified",
+      "names": {
+        "en": "Circadian City"
+      },
+      "platform": "steam",
+      "platformId": "1045430",
+      "executables": [
+        {
+          "name": "Circadian_City.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1045430/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1045430 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Circadian_City.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:105600",
       "status": "verified",
       "names": {
@@ -495,6 +525,66 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1071190",
+      "status": "verified",
+      "names": {
+        "en": "MineRalph"
+      },
+      "platform": "steam",
+      "platformId": "1071190",
+      "executables": [
+        {
+          "name": "MineRalph.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1071190/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1071190 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is MineRalph.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1084640",
+      "status": "verified",
+      "names": {
+        "en": "Chicken Police - Paint it RED!"
+      },
+      "platform": "steam",
+      "platformId": "1084640",
+      "executables": [
+        {
+          "name": "chicken_police.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1084640/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1084640 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is chicken_police.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-21"
     },
     {
       "schemaVersion": 1,
@@ -556,6 +646,66 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:108710",
+      "status": "verified",
+      "names": {
+        "en": "Alan Wake"
+      },
+      "platform": "steam",
+      "platformId": "108710",
+      "executables": [
+        {
+          "name": "AlanWake.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/108710/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/108710 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is AlanWake.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1087970",
+      "status": "verified",
+      "names": {
+        "en": "Nevrosa: Spider Song"
+      },
+      "platform": "steam",
+      "platformId": "1087970",
+      "executables": [
+        {
+          "name": "Nevrosa - Spider Song.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1087970/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1087970 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Nevrosa - Spider Song.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-21"
     },
     {
       "schemaVersion": 1,
@@ -816,6 +966,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1176470",
+      "status": "verified",
+      "names": {
+        "en": "Terra Invicta",
+        "zh-CN": "地球不屈 Terra Invicta"
+      },
+      "platform": "steam",
+      "platformId": "1176470",
+      "executables": [
+        {
+          "name": "TerraInvicta.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1176470/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1176470 Steam PICS appinfo: common.type=Game, Windows launch entry 13 on the default branch is TerraInvicta.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1196590",
       "status": "verified",
       "names": {
@@ -873,6 +1054,97 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1221590",
+      "status": "verified",
+      "names": {
+        "en": "Formula Car Racing Simulator"
+      },
+      "platform": "steam",
+      "platformId": "1221590",
+      "executables": [
+        {
+          "name": "FormulaCarRacingSimulator.exe",
+          "relativePath": "Windows_x86/FormulaCarRacingSimulator.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1221590/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1221590 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is Windows_x86/FormulaCarRacingSimulator.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1232510",
+      "status": "verified",
+      "names": {
+        "en": "Teleporter: World of Gamers (Alpha)"
+      },
+      "platform": "steam",
+      "platformId": "1232510",
+      "executables": [
+        {
+          "name": "TeleporterWoG.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1232510/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1232510 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TeleporterWoG.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1261130",
+      "status": "verified",
+      "names": {
+        "en": "Shoot Them 2"
+      },
+      "platform": "steam",
+      "platformId": "1261130",
+      "executables": [
+        {
+          "name": "ShootThem2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1261130/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1261130 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is ShootThem2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1274800",
       "status": "verified",
       "names": {
@@ -900,6 +1172,38 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1286680",
+      "status": "verified",
+      "names": {
+        "en": "Tiny Tina's Wonderlands",
+        "zh-CN": "小缇娜的奇幻之地"
+      },
+      "platform": "steam",
+      "platformId": "1286680",
+      "executables": [
+        {
+          "name": "Wonderlands.exe",
+          "relativePath": "OakGame/Binaries/Win64/Wonderlands.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1286680/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1286680 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is OakGame/Binaries/Win64/Wonderlands.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
     },
     {
       "schemaVersion": 1,
@@ -964,6 +1268,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1344800",
+      "status": "verified",
+      "names": {
+        "en": "Twin-Turbo Supercharged Nitro-Fueled Papamobile"
+      },
+      "platform": "steam",
+      "platformId": "1344800",
+      "executables": [
+        {
+          "name": "papamobile.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1344800/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1344800 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is papamobile.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-22"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1364780",
       "status": "verified",
       "names": {
@@ -987,6 +1321,66 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1380070",
+      "status": "verified",
+      "names": {
+        "en": "Slaves of Rome"
+      },
+      "platform": "steam",
+      "platformId": "1380070",
+      "executables": [
+        {
+          "name": "SlavesOfRome.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1380070/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1380070 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is SlavesOfRome.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-22"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1389700",
+      "status": "verified",
+      "names": {
+        "en": "Sweet and Hot"
+      },
+      "platform": "steam",
+      "platformId": "1389700",
+      "executables": [
+        {
+          "name": "Sweet and Hot.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1389700/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1389700 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Sweet and Hot.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-19"
     },
     {
       "schemaVersion": 1,
@@ -1361,6 +1755,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:2149070",
+      "status": "verified",
+      "names": {
+        "en": "Cosplay Collection"
+      },
+      "platform": "steam",
+      "platformId": "2149070",
+      "executables": [
+        {
+          "name": "Cosplay_Collection.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2149070/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2149070 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Cosplay_Collection.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:2215430",
       "status": "verified",
       "names": {
@@ -1451,6 +1875,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2273420",
+      "status": "verified",
+      "names": {
+        "en": "Peeping Dorm Manager"
+      },
+      "platform": "steam",
+      "platformId": "2273420",
+      "executables": [
+        {
+          "name": "Peeping Dorm Manager.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2273420/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2273420 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Peeping Dorm Manager.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
     },
     {
       "schemaVersion": 1,
@@ -1660,6 +2114,37 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2510960",
+      "status": "verified",
+      "names": {
+        "en": "Temtem: Swarm",
+        "zh-CN": "Temtem: Swarm / 腾兽：蜂拥之群"
+      },
+      "platform": "steam",
+      "platformId": "2510960",
+      "executables": [
+        {
+          "name": "TemtemSwarm.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2510960/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2510960 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TemtemSwarm.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-21"
     },
     {
       "schemaVersion": 1,
@@ -1877,6 +2362,66 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:285900",
+      "status": "verified",
+      "names": {
+        "en": "Gang Beasts"
+      },
+      "platform": "steam",
+      "platformId": "285900",
+      "executables": [
+        {
+          "name": "Gang Beasts.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/285900/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/285900 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Gang Beasts.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-22"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:297120",
+      "status": "verified",
+      "names": {
+        "en": "Heavy Bullets"
+      },
+      "platform": "steam",
+      "platformId": "297120",
+      "executables": [
+        {
+          "name": "HEAVY_BULLETS.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/297120/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/297120 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is HEAVY_BULLETS.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:3032980",
       "status": "verified",
       "names": {
@@ -1938,6 +2483,156 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:308060",
+      "status": "verified",
+      "names": {
+        "en": "Black The Fall"
+      },
+      "platform": "steam",
+      "platformId": "308060",
+      "executables": [
+        {
+          "name": "BlackTheFall.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/308060/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/308060 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is BlackTheFall.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:312780",
+      "status": "verified",
+      "names": {
+        "en": "Way of the Samurai 4"
+      },
+      "platform": "steam",
+      "platformId": "312780",
+      "executables": [
+        {
+          "name": "WayOfTheSamurai4.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/312780/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/312780 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is WayOfTheSamurai4.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:319780",
+      "status": "verified",
+      "names": {
+        "en": "Airport Simulator 2015"
+      },
+      "platform": "steam",
+      "platformId": "319780",
+      "executables": [
+        {
+          "name": "Airport_2015.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/319780/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/319780 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Airport_2015.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:3229140",
+      "status": "verified",
+      "names": {
+        "en": "Echoes Of The House"
+      },
+      "platform": "steam",
+      "platformId": "3229140",
+      "executables": [
+        {
+          "name": "EchoesOfTheHouse.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/3229140/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/3229140 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is EchoesOfTheHouse.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-22"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:323380",
+      "status": "verified",
+      "names": {
+        "en": "The Magic Circle"
+      },
+      "platform": "steam",
+      "platformId": "323380",
+      "executables": [
+        {
+          "name": "TheMagicCircle.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/323380/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/323380 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TheMagicCircle.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:333600",
       "status": "verified",
       "names": {
@@ -1965,6 +2660,36 @@
         }
       ],
       "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:345820",
+      "status": "verified",
+      "names": {
+        "en": "Shantae and the Pirate's Curse"
+      },
+      "platform": "steam",
+      "platformId": "345820",
+      "executables": [
+        {
+          "name": "ShantaeCurse.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/345820/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/345820 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is ShantaeCurse.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-21"
     },
     {
       "schemaVersion": 1,
@@ -2143,6 +2868,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:388410",
+      "status": "verified",
+      "names": {
+        "en": "Darksiders II Deathinitive Edition"
+      },
+      "platform": "steam",
+      "platformId": "388410",
+      "executables": [
+        {
+          "name": "Darksiders2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/388410/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/388410 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Darksiders2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-22"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:397540",
       "status": "verified",
       "names": {
@@ -2262,6 +3017,96 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:434570",
+      "status": "verified",
+      "names": {
+        "en": "Blood and Bacon"
+      },
+      "platform": "steam",
+      "platformId": "434570",
+      "executables": [
+        {
+          "name": "BloodandBacon.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/434570/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/434570 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is BloodandBacon.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-22"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:459080",
+      "status": "verified",
+      "names": {
+        "en": "YIIK: A Postmodern RPG"
+      },
+      "platform": "steam",
+      "platformId": "459080",
+      "executables": [
+        {
+          "name": "YIIK A Postmodern RPG.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/459080/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/459080 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is YIIK A Postmodern RPG.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:468490",
+      "status": "verified",
+      "names": {
+        "en": "Neon Space"
+      },
+      "platform": "steam",
+      "platformId": "468490",
+      "executables": [
+        {
+          "name": "NeonSpace.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/468490/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/468490 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is NeonSpace.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:489830",
       "status": "verified",
       "names": {
@@ -2285,6 +3130,36 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:501220",
+      "status": "verified",
+      "names": {
+        "en": "Space Ribbon - Slipstream to the Extreme"
+      },
+      "platform": "steam",
+      "platformId": "501220",
+      "executables": [
+        {
+          "name": "SpaceRibbon.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/501220/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/501220 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is SpaceRibbon.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
     },
     {
       "schemaVersion": 1,
@@ -2348,6 +3223,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:537340",
+      "status": "verified",
+      "names": {
+        "en": "Guts and Glory"
+      },
+      "platform": "steam",
+      "platformId": "537340",
+      "executables": [
+        {
+          "name": "Guts and Glory.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/537340/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/537340 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Guts and Glory.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-22"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:550",
       "status": "verified",
       "names": {
@@ -2375,6 +3280,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:559450",
+      "status": "verified",
+      "names": {
+        "en": "Demented Pixie"
+      },
+      "platform": "steam",
+      "platformId": "559450",
+      "executables": [
+        {
+          "name": "demented_pixie.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/559450/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/559450 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is demented_pixie.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
     },
     {
       "schemaVersion": 1,
@@ -2613,6 +3548,126 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:640890",
+      "status": "verified",
+      "names": {
+        "en": "Will Glow the Wisp"
+      },
+      "platform": "steam",
+      "platformId": "640890",
+      "executables": [
+        {
+          "name": "Will Glow the Wisp.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/640890/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/640890 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Will Glow the Wisp.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:655160",
+      "status": "verified",
+      "names": {
+        "en": "welcome to heaven"
+      },
+      "platform": "steam",
+      "platformId": "655160",
+      "executables": [
+        {
+          "name": "welcome to heaven.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/655160/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/655160 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is welcome to heaven.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-22"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:666960",
+      "status": "verified",
+      "names": {
+        "en": "Cowboy's Adventure"
+      },
+      "platform": "steam",
+      "platformId": "666960",
+      "executables": [
+        {
+          "name": "Cowboy's Adventure.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/666960/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/666960 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Cowboy's Adventure.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:704880",
+      "status": "verified",
+      "names": {
+        "en": "Trident's Wake"
+      },
+      "platform": "steam",
+      "platformId": "704880",
+      "executables": [
+        {
+          "name": "TridentsWake.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/704880/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/704880 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TridentsWake.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-22"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:706240",
       "status": "verified",
       "names": {
@@ -2792,6 +3847,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:779330",
+      "status": "verified",
+      "names": {
+        "en": "Ninja Tycoon"
+      },
+      "platform": "steam",
+      "platformId": "779330",
+      "executables": [
+        {
+          "name": "NinjaTycoon.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/779330/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/779330 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is NinjaTycoon.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-22; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-22"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:782330",
       "status": "verified",
       "names": {
@@ -2815,6 +3900,37 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:782570",
+      "status": "verified",
+      "names": {
+        "en": "Endless Road: Reborn",
+        "zh-CN": "无尽之路：重生"
+      },
+      "platform": "steam",
+      "platformId": "782570",
+      "executables": [
+        {
+          "name": "EndlessRoad.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/782570/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/782570 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is EndlessRoad.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-19"
     },
     {
       "schemaVersion": 1,
@@ -3000,6 +4116,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:897530",
+      "status": "verified",
+      "names": {
+        "en": "Retroids"
+      },
+      "platform": "steam",
+      "platformId": "897530",
+      "executables": [
+        {
+          "name": "Retroids.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/897530/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/897530 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Retroids.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-21; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:907460",
       "status": "verified",
       "names": {
@@ -3027,6 +4173,37 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:943260",
+      "status": "verified",
+      "names": {
+        "en": "Stranded Sails - Explorers of the Cursed Islands",
+        "zh-CN": "落難航船:詛咒之島的探險者"
+      },
+      "platform": "steam",
+      "platformId": "943260",
+      "executables": [
+        {
+          "name": "StrandedSails.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/943260/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/943260 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is StrandedSails.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-19"
     },
     {
       "schemaVersion": 1,
@@ -3113,6 +4290,36 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:980300",
+      "status": "verified",
+      "names": {
+        "en": "One Finger Death Punch 2"
+      },
+      "platform": "steam",
+      "platformId": "980300",
+      "executables": [
+        {
+          "name": "One Finger Death Punch 2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/980300/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/980300 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is One Finger Death Punch 2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-20"
     },
     {
       "schemaVersion": 1,

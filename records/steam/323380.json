@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:323380",
+  "status": "verified",
+  "names": {
+    "en": "The Magic Circle"
+  },
+  "platform": "steam",
+  "platformId": "323380",
+  "executables": [
+    {
+      "name": "TheMagicCircle.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/323380/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/323380 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TheMagicCircle.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-19"
+}

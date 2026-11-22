@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:319780",
+  "status": "verified",
+  "names": {
+    "en": "Airport Simulator 2015"
+  },
+  "platform": "steam",
+  "platformId": "319780",
+  "executables": [
+    {
+      "name": "Airport_2015.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/319780/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/319780 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Airport_2015.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-20; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-20"
+}

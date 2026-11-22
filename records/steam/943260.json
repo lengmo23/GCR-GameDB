@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:943260",
+  "status": "verified",
+  "names": {
+    "en": "Stranded Sails - Explorers of the Cursed Islands",
+    "zh-CN": "落難航船:詛咒之島的探險者"
+  },
+  "platform": "steam",
+  "platformId": "943260",
+  "executables": [
+    {
+      "name": "StrandedSails.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/943260/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/943260 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is StrandedSails.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-19; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-19"
+}
