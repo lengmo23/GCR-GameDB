@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T00:00:00.000Z",
+  "generatedAt": "2026-11-24T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -438,6 +438,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1029550",
+      "status": "verified",
+      "names": {
+        "en": "Torque Drift"
+      },
+      "platform": "steam",
+      "platformId": "1029550",
+      "executables": [
+        {
+          "name": "TorqueDrift.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1029550/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1029550 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TorqueDrift.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1041710",
       "status": "verified",
       "names": {
@@ -737,6 +767,36 @@
         }
       ],
       "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1089980",
+      "status": "verified",
+      "names": {
+        "en": "The Henry Stickmin Collection"
+      },
+      "platform": "steam",
+      "platformId": "1089980",
+      "executables": [
+        {
+          "name": "HenryStickmin.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1089980/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1089980 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is HenryStickmin.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
     },
     {
       "schemaVersion": 1,
@@ -1330,6 +1390,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1331510",
+      "status": "verified",
+      "names": {
+        "en": "Battle Talent"
+      },
+      "platform": "steam",
+      "platformId": "1331510",
+      "executables": [
+        {
+          "name": "BattleTalent.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1331510/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1331510 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is BattleTalent.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1344800",
       "status": "verified",
       "names": {
@@ -1613,6 +1703,36 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1754870",
+      "status": "verified",
+      "names": {
+        "en": "Lust Theory Season 2"
+      },
+      "platform": "steam",
+      "platformId": "1754870",
+      "executables": [
+        {
+          "name": "LustTheory2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1754870/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1754870 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is LustTheory2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
     },
     {
       "schemaVersion": 1,
@@ -2178,6 +2298,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:2399220",
+      "status": "verified",
+      "names": {
+        "en": "NUKITASHI"
+      },
+      "platform": "steam",
+      "platformId": "2399220",
+      "executables": [
+        {
+          "name": "NUKITASHI.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2399220/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2399220 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is NUKITASHI.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:2420110",
       "status": "verified",
       "names": {
@@ -2575,6 +2725,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:3049460",
+      "status": "verified",
+      "names": {
+        "en": "Milking Mira!"
+      },
+      "platform": "steam",
+      "platformId": "3049460",
+      "executables": [
+        {
+          "name": "MilkingMira!.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/3049460/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/3049460 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is MilkingMira!.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:308040",
       "status": "verified",
       "names": {
@@ -2632,6 +2812,36 @@
         }
       ],
       "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:311210",
+      "status": "verified",
+      "names": {
+        "en": "Call of Duty®: Black Ops III"
+      },
+      "platform": "steam",
+      "platformId": "311210",
+      "executables": [
+        {
+          "name": "blackops3.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/311210/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/311210 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is blackops3.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
     },
     {
       "schemaVersion": 1,
@@ -3910,6 +4120,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:684580",
+      "status": "verified",
+      "names": {
+        "en": "Shoppe Keep 2"
+      },
+      "platform": "steam",
+      "platformId": "684580",
+      "executables": [
+        {
+          "name": "Shoppe Keep 2.exe",
+          "relativePath": "Shoppe Keep 2 SP/Shoppe Keep 2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/684580/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/684580 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is Shoppe Keep 2 SP/Shoppe Keep 2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:704880",
       "status": "verified",
       "names": {
@@ -4327,6 +4568,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:850450",
+      "status": "verified",
+      "names": {
+        "en": "Escape First"
+      },
+      "platform": "steam",
+      "platformId": "850450",
+      "executables": [
+        {
+          "name": "EscapeFirst.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/850450/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/850450 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is EscapeFirst.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:864570",
       "status": "verified",
       "names": {
@@ -4506,6 +4777,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:946550",
+      "status": "verified",
+      "names": {
+        "en": "Hentai Forest"
+      },
+      "platform": "steam",
+      "platformId": "946550",
+      "executables": [
+        {
+          "name": "Hentai Forest.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/946550/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/946550 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Hentai Forest.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
     },
     {
       "schemaVersion": 1,

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:3049460",
+  "status": "verified",
+  "names": {
+    "en": "Milking Mira!"
+  },
+  "platform": "steam",
+  "platformId": "3049460",
+  "executables": [
+    {
+      "name": "MilkingMira!.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/3049460/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/3049460 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is MilkingMira!.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-24"
+}
