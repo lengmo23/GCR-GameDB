@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1078970",
+  "status": "verified",
+  "names": {
+    "en": "局外人 L'Etranger"
+  },
+  "platform": "steam",
+  "platformId": "1078970",
+  "executables": [
+    {
+      "name": "L'etranger.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1078970/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1078970 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is L'etranger.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-25"
+}

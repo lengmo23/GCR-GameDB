@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:667810",
+  "status": "verified",
+  "names": {
+    "en": "Next Up Hero"
+  },
+  "platform": "steam",
+  "platformId": "667810",
+  "executables": [
+    {
+      "name": "NextUpHero.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/667810/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/667810 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is NextUpHero.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-25"
+}

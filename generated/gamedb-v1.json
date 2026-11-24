@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-24T00:00:00.000Z",
+  "generatedAt": "2026-11-25T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -616,6 +616,36 @@
         }
       ],
       "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1078970",
+      "status": "verified",
+      "names": {
+        "en": "局外人 L'Etranger"
+      },
+      "platform": "steam",
+      "platformId": "1078970",
+      "executables": [
+        {
+          "name": "L'etranger.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1078970/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1078970 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is L'etranger.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
     },
     {
       "schemaVersion": 1,
@@ -2995,6 +3025,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:3259470",
+      "status": "verified",
+      "names": {
+        "en": "Papa's Pizzeria Deluxe"
+      },
+      "platform": "steam",
+      "platformId": "3259470",
+      "executables": [
+        {
+          "name": "Papa's Pizzeria Deluxe.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/3259470/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/3259470 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Papa's Pizzeria Deluxe.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:333600",
       "status": "verified",
       "names": {
@@ -3408,6 +3468,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:420440",
+      "status": "verified",
+      "names": {
+        "en": "Atlantic Fleet"
+      },
+      "platform": "steam",
+      "platformId": "420440",
+      "executables": [
+        {
+          "name": "AtlanticFleet.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/420440/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/420440 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is AtlanticFleet.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:427520",
       "status": "verified",
       "names": {
@@ -3556,6 +3646,36 @@
         }
       ],
       "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:477290",
+      "status": "verified",
+      "names": {
+        "en": "Magma Tsunami"
+      },
+      "platform": "steam",
+      "platformId": "477290",
+      "executables": [
+        {
+          "name": "MagmaTsunami.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/477290/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/477290 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is MagmaTsunami.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
     },
     {
       "schemaVersion": 1,
@@ -3762,6 +3882,36 @@
         }
       ],
       "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:559960",
+      "status": "verified",
+      "names": {
+        "en": "Power Hover"
+      },
+      "platform": "steam",
+      "platformId": "559960",
+      "executables": [
+        {
+          "name": "PowerHover.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/559960/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/559960 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is PowerHover.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
     },
     {
       "schemaVersion": 1,
@@ -4087,6 +4237,36 @@
         }
       ],
       "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:667810",
+      "status": "verified",
+      "names": {
+        "en": "Next Up Hero"
+      },
+      "platform": "steam",
+      "platformId": "667810",
+      "executables": [
+        {
+          "name": "NextUpHero.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/667810/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/667810 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is NextUpHero.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
     },
     {
       "schemaVersion": 1,
@@ -4595,6 +4775,36 @@
         }
       ],
       "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:862570",
+      "status": "verified",
+      "names": {
+        "en": "Ding Dong XL"
+      },
+      "platform": "steam",
+      "platformId": "862570",
+      "executables": [
+        {
+          "name": "DingDongXL.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/862570/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/862570 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is DingDongXL.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
     },
     {
       "schemaVersion": 1,
