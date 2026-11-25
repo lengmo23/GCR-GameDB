@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-25T00:00:00.000Z",
+  "generatedAt": "2026-11-26T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -438,6 +438,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1001040",
+      "status": "verified",
+      "names": {
+        "en": "Glorious Companions"
+      },
+      "platform": "steam",
+      "platformId": "1001040",
+      "executables": [
+        {
+          "name": "Glorious Companions.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1001040/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1001040 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Glorious Companions.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1029550",
       "status": "verified",
       "names": {
@@ -526,6 +556,36 @@
         }
       ],
       "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1049890",
+      "status": "verified",
+      "names": {
+        "en": "Little Witch Nobeta"
+      },
+      "platform": "steam",
+      "platformId": "1049890",
+      "executables": [
+        {
+          "name": "LittleWitchNobeta.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1049890/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1049890 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is LittleWitchNobeta.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
     },
     {
       "schemaVersion": 1,
@@ -1710,6 +1770,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1667130",
+      "status": "verified",
+      "names": {
+        "en": "Beautiful Mystic Defenders"
+      },
+      "platform": "steam",
+      "platformId": "1667130",
+      "executables": [
+        {
+          "name": "BeautifulMysticDefenders.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1667130/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1667130 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is BeautifulMysticDefenders.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1716740",
       "status": "verified",
       "names": {
@@ -2694,6 +2784,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:2917350",
+      "status": "verified",
+      "names": {
+        "en": "Spin Hero",
+        "zh-CN": "拉杆英雄"
+      },
+      "platform": "steam",
+      "platformId": "2917350",
+      "executables": [
+        {
+          "name": "Spin Hero.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2917350/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2917350 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Spin Hero.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:297120",
       "status": "verified",
       "names": {
@@ -3410,6 +3531,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:388880",
+      "status": "verified",
+      "names": {
+        "en": "Oxenfree"
+      },
+      "platform": "steam",
+      "platformId": "388880",
+      "executables": [
+        {
+          "name": "Oxenfree.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/388880/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/388880 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Oxenfree.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:397540",
       "status": "verified",
       "names": {
@@ -3912,6 +4063,36 @@
         }
       ],
       "lastVerified": "2026-11-25"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:562410",
+      "status": "verified",
+      "names": {
+        "en": "Panty Party"
+      },
+      "platform": "steam",
+      "platformId": "562410",
+      "executables": [
+        {
+          "name": "PantyParty.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/562410/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/562410 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is PantyParty.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
     },
     {
       "schemaVersion": 1,
@@ -4540,6 +4721,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:764560",
+      "status": "verified",
+      "names": {
+        "en": "Chocolate makes you happy 2"
+      },
+      "platform": "steam",
+      "platformId": "764560",
+      "executables": [
+        {
+          "name": "Chocolate makes you happy 2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/764560/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/764560 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Chocolate makes you happy 2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:779330",
       "status": "verified",
       "names": {
@@ -5165,6 +5376,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:995050",
+      "status": "verified",
+      "names": {
+        "en": "Havocado: Ragdoll Fighter"
+      },
+      "platform": "steam",
+      "platformId": "995050",
+      "executables": [
+        {
+          "name": "Havocado.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/995050/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/995050 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Havocado.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
     },
     {
       "schemaVersion": 1,
