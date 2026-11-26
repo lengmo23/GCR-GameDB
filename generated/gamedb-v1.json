@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T00:00:00.000Z",
+  "generatedAt": "2026-11-27T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -1095,6 +1095,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1153670",
+      "status": "verified",
+      "names": {
+        "en": "Hentai Cosplay Elf"
+      },
+      "platform": "steam",
+      "platformId": "1153670",
+      "executables": [
+        {
+          "name": "Hentai Cosplay Elf.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1153670/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1153670 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Hentai Cosplay Elf.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1172470",
       "status": "verified",
       "names": {
@@ -1826,6 +1856,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:17410",
+      "status": "verified",
+      "names": {
+        "en": "Mirror's Edge™"
+      },
+      "platform": "steam",
+      "platformId": "17410",
+      "executables": [
+        {
+          "name": "MirrorsEdge.exe",
+          "relativePath": "Binaries/MirrorsEdge.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/17410/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/17410 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Binaries/MirrorsEdge.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1754870",
       "status": "verified",
       "names": {
@@ -2084,6 +2145,68 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2095290",
+      "status": "verified",
+      "names": {
+        "en": "Theseus Protocol",
+        "zh-CN": "特修斯协议"
+      },
+      "platform": "steam",
+      "platformId": "2095290",
+      "executables": [
+        {
+          "name": "Theseus_Protocol.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2095290/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2095290 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Theseus_Protocol.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2138090",
+      "status": "verified",
+      "names": {
+        "en": "Atelier Marie Remake: The Alchemist of Salburg",
+        "zh-CN": "玛莉的炼金工房 Remake ～萨尔布鲁克的炼金术士～"
+      },
+      "platform": "steam",
+      "platformId": "2138090",
+      "executables": [
+        {
+          "name": "Atelier_Marie_Remake.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2138090/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2138090 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Atelier_Marie_Remake.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
     },
     {
       "schemaVersion": 1,
@@ -2784,6 +2907,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:290060",
+      "status": "verified",
+      "names": {
+        "en": "Glitchspace"
+      },
+      "platform": "steam",
+      "platformId": "290060",
+      "executables": [
+        {
+          "name": "glitchspace.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/290060/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/290060 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is glitchspace.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:2917350",
       "status": "verified",
       "names": {
@@ -3327,6 +3480,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:365020",
+      "status": "verified",
+      "names": {
+        "en": "Gynophobia"
+      },
+      "platform": "steam",
+      "platformId": "365020",
+      "executables": [
+        {
+          "name": "Gynophobia.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/365020/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/365020 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Gynophobia.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:368370",
       "status": "verified",
       "names": {
@@ -3593,6 +3776,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:406130",
+      "status": "verified",
+      "names": {
+        "en": "DarkMaus"
+      },
+      "platform": "steam",
+      "platformId": "406130",
+      "executables": [
+        {
+          "name": "DarkMaus.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/406130/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/406130 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is DarkMaus.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:418370",
       "status": "verified",
       "names": {
@@ -3797,6 +4010,36 @@
         }
       ],
       "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:474830",
+      "status": "verified",
+      "names": {
+        "en": "Time in Time"
+      },
+      "platform": "steam",
+      "platformId": "474830",
+      "executables": [
+        {
+          "name": "timeintime.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/474830/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/474830 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is timeintime.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
     },
     {
       "schemaVersion": 1,
@@ -4268,6 +4511,36 @@
         }
       ],
       "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:606480",
+      "status": "verified",
+      "names": {
+        "en": "Flood of Light"
+      },
+      "platform": "steam",
+      "platformId": "606480",
+      "executables": [
+        {
+          "name": "FloodOfLight.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/606480/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/606480 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is FloodOfLight.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
     },
     {
       "schemaVersion": 1,
@@ -5137,6 +5410,36 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:924140",
+      "status": "verified",
+      "names": {
+        "en": "Hand Simulator: Survival"
+      },
+      "platform": "steam",
+      "platformId": "924140",
+      "executables": [
+        {
+          "name": "Hand Simulator Survival.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/924140/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/924140 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Hand Simulator Survival.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
     },
     {
       "schemaVersion": 1,

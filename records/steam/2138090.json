@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:2138090",
+  "status": "verified",
+  "names": {
+    "en": "Atelier Marie Remake: The Alchemist of Salburg",
+    "zh-CN": "玛莉的炼金工房 Remake ～萨尔布鲁克的炼金术士～"
+  },
+  "platform": "steam",
+  "platformId": "2138090",
+  "executables": [
+    {
+      "name": "Atelier_Marie_Remake.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/2138090/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/2138090 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Atelier_Marie_Remake.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-27"
+}

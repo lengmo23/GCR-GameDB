@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:2095290",
+  "status": "verified",
+  "names": {
+    "en": "Theseus Protocol",
+    "zh-CN": "特修斯协议"
+  },
+  "platform": "steam",
+  "platformId": "2095290",
+  "executables": [
+    {
+      "name": "Theseus_Protocol.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/2095290/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/2095290 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Theseus_Protocol.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-27"
+}

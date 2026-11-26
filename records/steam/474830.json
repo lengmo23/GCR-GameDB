@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:474830",
+  "status": "verified",
+  "names": {
+    "en": "Time in Time"
+  },
+  "platform": "steam",
+  "platformId": "474830",
+  "executables": [
+    {
+      "name": "timeintime.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/474830/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/474830 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is timeintime.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-27"
+}

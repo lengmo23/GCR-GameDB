@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:406130",
+  "status": "verified",
+  "names": {
+    "en": "DarkMaus"
+  },
+  "platform": "steam",
+  "platformId": "406130",
+  "executables": [
+    {
+      "name": "DarkMaus.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/406130/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/406130 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is DarkMaus.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-27"
+}

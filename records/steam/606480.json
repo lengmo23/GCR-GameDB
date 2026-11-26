@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:606480",
+  "status": "verified",
+  "names": {
+    "en": "Flood of Light"
+  },
+  "platform": "steam",
+  "platformId": "606480",
+  "executables": [
+    {
+      "name": "FloodOfLight.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/606480/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/606480 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is FloodOfLight.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-27"
+}
