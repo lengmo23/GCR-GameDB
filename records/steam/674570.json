@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:674570",
+  "status": "verified",
+  "names": {
+    "en": "Bear Football"
+  },
+  "platform": "steam",
+  "platformId": "674570",
+  "executables": [
+    {
+      "name": "Bear Football.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/674570/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/674570 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Bear Football.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-28"
+}

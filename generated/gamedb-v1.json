@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-27T00:00:00.000Z",
+  "generatedAt": "2026-11-28T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -947,6 +947,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1094640",
+      "status": "verified",
+      "names": {
+        "en": "True Love '95"
+      },
+      "platform": "steam",
+      "platformId": "1094640",
+      "executables": [
+        {
+          "name": "TrueLove.exe",
+          "relativePath": "TL_RenPy/TrueLove.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1094640/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1094640 Steam PICS appinfo: common.type=Game, Windows launch entry 3 on the default branch is TL_RenPy/TrueLove.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1104330",
       "status": "verified",
       "names": {
@@ -1005,6 +1036,36 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1140170",
+      "status": "verified",
+      "names": {
+        "en": "Arietta of Spirits"
+      },
+      "platform": "steam",
+      "platformId": "1140170",
+      "executables": [
+        {
+          "name": "Arietta of Spirits.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1140170/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1140170 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Arietta of Spirits.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
     },
     {
       "schemaVersion": 1,
@@ -1208,6 +1269,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1184400",
+      "status": "verified",
+      "names": {
+        "en": "Succubus Waifu"
+      },
+      "platform": "steam",
+      "platformId": "1184400",
+      "executables": [
+        {
+          "name": "Succubus Waifu.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1184400/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1184400 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Succubus Waifu.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1196590",
       "status": "verified",
       "names": {
@@ -1353,6 +1444,36 @@
         }
       ],
       "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1273710",
+      "status": "verified",
+      "names": {
+        "en": "King of Crabs"
+      },
+      "platform": "steam",
+      "platformId": "1273710",
+      "executables": [
+        {
+          "name": "King of Crabs.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1273710/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1273710 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is King of Crabs.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
     },
     {
       "schemaVersion": 1,
@@ -1623,6 +1744,36 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1372810",
+      "status": "verified",
+      "names": {
+        "en": "Teamfight Manager"
+      },
+      "platform": "steam",
+      "platformId": "1372810",
+      "executables": [
+        {
+          "name": "Teamfight Manager.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1372810/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1372810 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Teamfight Manager.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
     },
     {
       "schemaVersion": 1,
@@ -4370,6 +4521,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:570980",
+      "status": "verified",
+      "names": {
+        "en": "Tale of Fallen Dragons"
+      },
+      "platform": "steam",
+      "platformId": "570980",
+      "executables": [
+        {
+          "name": "FallenDragons.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/570980/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/570980 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is FallenDragons.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:578080",
       "status": "verified",
       "names": {
@@ -4574,6 +4755,38 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:623320",
+      "status": "verified",
+      "names": {
+        "en": "Button Button Up!",
+        "zh-CN": "纽扣兄弟"
+      },
+      "platform": "steam",
+      "platformId": "623320",
+      "executables": [
+        {
+          "name": "ButtonButtonUp!.exe",
+          "relativePath": "Button Button Up!/ButtonButtonUp!.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/623320/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/623320 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Button Button Up!/ButtonButtonUp!.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:640380",
       "status": "verified",
       "names": {
@@ -4664,6 +4877,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:660290",
+      "status": "verified",
+      "names": {
+        "en": "Dungeons & Geese"
+      },
+      "platform": "steam",
+      "platformId": "660290",
+      "executables": [
+        {
+          "name": "Dungeons & Geese.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/660290/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/660290 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Dungeons & Geese.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:666960",
       "status": "verified",
       "names": {
@@ -4751,6 +4994,36 @@
         }
       ],
       "lastVerified": "2026-11-23"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:674570",
+      "status": "verified",
+      "names": {
+        "en": "Bear Football"
+      },
+      "platform": "steam",
+      "platformId": "674570",
+      "executables": [
+        {
+          "name": "Bear Football.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/674570/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/674570 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Bear Football.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
     },
     {
       "schemaVersion": 1,
@@ -5198,6 +5471,36 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:843390",
+      "status": "verified",
+      "names": {
+        "en": "Vertigo 2"
+      },
+      "platform": "steam",
+      "platformId": "843390",
+      "executables": [
+        {
+          "name": "vertigo2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/843390/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/843390 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is vertigo2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
     },
     {
       "schemaVersion": 1,
