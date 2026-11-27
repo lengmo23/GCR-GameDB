@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:684580",
+  "status": "verified",
+  "names": {
+    "en": "Shoppe Keep 2"
+  },
+  "platform": "steam",
+  "platformId": "684580",
+  "executables": [
+    {
+      "name": "Shoppe Keep 2.exe",
+      "relativePath": "Shoppe Keep 2 SP/Shoppe Keep 2.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/684580/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/684580 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is Shoppe Keep 2 SP/Shoppe Keep 2.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-24"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:764560",
+  "status": "verified",
+  "names": {
+    "en": "Chocolate makes you happy 2"
+  },
+  "platform": "steam",
+  "platformId": "764560",
+  "executables": [
+    {
+      "name": "Chocolate makes you happy 2.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/764560/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/764560 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Chocolate makes you happy 2.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-26"
+}

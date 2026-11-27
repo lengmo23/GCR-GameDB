@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:559960",
+  "status": "verified",
+  "names": {
+    "en": "Power Hover"
+  },
+  "platform": "steam",
+  "platformId": "559960",
+  "executables": [
+    {
+      "name": "PowerHover.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/559960/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/559960 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is PowerHover.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-25"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1001040",
+  "status": "verified",
+  "names": {
+    "en": "Glorious Companions"
+  },
+  "platform": "steam",
+  "platformId": "1001040",
+  "executables": [
+    {
+      "name": "Glorious Companions.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1001040/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1001040 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Glorious Companions.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-26"
+}

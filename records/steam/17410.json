@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:17410",
+  "status": "verified",
+  "names": {
+    "en": "Mirror's Edge™"
+  },
+  "platform": "steam",
+  "platformId": "17410",
+  "executables": [
+    {
+      "name": "MirrorsEdge.exe",
+      "relativePath": "Binaries/MirrorsEdge.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/17410/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/17410 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Binaries/MirrorsEdge.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-27"
+}

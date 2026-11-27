@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:368370",
+  "status": "verified",
+  "names": {
+    "en": "Her Story"
+  },
+  "platform": "steam",
+  "platformId": "368370",
+  "executables": [
+    {
+      "name": "HerStory.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/368370/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/368370 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is HerStory.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-23"
+}

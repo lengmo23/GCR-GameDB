@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1094640",
+  "status": "verified",
+  "names": {
+    "en": "True Love '95"
+  },
+  "platform": "steam",
+  "platformId": "1094640",
+  "executables": [
+    {
+      "name": "TrueLove.exe",
+      "relativePath": "TL_RenPy/TrueLove.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1094640/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1094640 Steam PICS appinfo: common.type=Game, Windows launch entry 3 on the default branch is TL_RenPy/TrueLove.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-28"
+}

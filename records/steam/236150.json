@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:236150",
+  "status": "verified",
+  "names": {
+    "en": "Starpoint Gemini 2"
+  },
+  "platform": "steam",
+  "platformId": "236150",
+  "executables": [
+    {
+      "name": "StarpointGemini2.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/236150/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/236150 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is StarpointGemini2.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-23"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1041710",
+  "status": "verified",
+  "names": {
+    "en": "Sim Empire",
+    "zh-CN": "模拟帝国"
+  },
+  "platform": "steam",
+  "platformId": "1041710",
+  "executables": [
+    {
+      "name": "Sim Empire.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1041710/ Steam appdetails: type=game, Windows supported"
+    },
+    {
+      "kind": "platform_metadata",
+      "source": "https://api.steamcmd.net/v1/info/1041710 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is Sim Empire.exe"
+    },
+    {
+      "kind": "manual_review",
+      "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+    }
+  ],
+  "lastVerified": "2026-11-23"
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-22T00:00:00.000Z",
+  "generatedAt": "2026-11-28T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -438,6 +438,97 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1001040",
+      "status": "verified",
+      "names": {
+        "en": "Glorious Companions"
+      },
+      "platform": "steam",
+      "platformId": "1001040",
+      "executables": [
+        {
+          "name": "Glorious Companions.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1001040/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1001040 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Glorious Companions.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1029550",
+      "status": "verified",
+      "names": {
+        "en": "Torque Drift"
+      },
+      "platform": "steam",
+      "platformId": "1029550",
+      "executables": [
+        {
+          "name": "TorqueDrift.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1029550/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1029550 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is TorqueDrift.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1041710",
+      "status": "verified",
+      "names": {
+        "en": "Sim Empire",
+        "zh-CN": "模拟帝国"
+      },
+      "platform": "steam",
+      "platformId": "1041710",
+      "executables": [
+        {
+          "name": "Sim Empire.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1041710/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1041710 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is Sim Empire.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-23"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1045430",
       "status": "verified",
       "names": {
@@ -465,6 +556,36 @@
         }
       ],
       "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1049890",
+      "status": "verified",
+      "names": {
+        "en": "Little Witch Nobeta"
+      },
+      "platform": "steam",
+      "platformId": "1049890",
+      "executables": [
+        {
+          "name": "LittleWitchNobeta.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1049890/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1049890 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is LittleWitchNobeta.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
     },
     {
       "schemaVersion": 1,
@@ -555,6 +676,36 @@
         }
       ],
       "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1078970",
+      "status": "verified",
+      "names": {
+        "en": "局外人 L'Etranger"
+      },
+      "platform": "steam",
+      "platformId": "1078970",
+      "executables": [
+        {
+          "name": "L'etranger.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1078970/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1078970 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is L'etranger.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
     },
     {
       "schemaVersion": 1,
@@ -709,6 +860,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1089980",
+      "status": "verified",
+      "names": {
+        "en": "The Henry Stickmin Collection"
+      },
+      "platform": "steam",
+      "platformId": "1089980",
+      "executables": [
+        {
+          "name": "HenryStickmin.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1089980/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1089980 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is HenryStickmin.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1091500",
       "status": "verified",
       "names": {
@@ -763,6 +944,37 @@
         }
       ],
       "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1094640",
+      "status": "verified",
+      "names": {
+        "en": "True Love '95"
+      },
+      "platform": "steam",
+      "platformId": "1094640",
+      "executables": [
+        {
+          "name": "TrueLove.exe",
+          "relativePath": "TL_RenPy/TrueLove.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1094640/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1094640 Steam PICS appinfo: common.type=Game, Windows launch entry 3 on the default branch is TL_RenPy/TrueLove.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
     },
     {
       "schemaVersion": 1,
@@ -824,6 +1036,36 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1140170",
+      "status": "verified",
+      "names": {
+        "en": "Arietta of Spirits"
+      },
+      "platform": "steam",
+      "platformId": "1140170",
+      "executables": [
+        {
+          "name": "Arietta of Spirits.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1140170/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1140170 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Arietta of Spirits.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
     },
     {
       "schemaVersion": 1,
@@ -914,6 +1156,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1153670",
+      "status": "verified",
+      "names": {
+        "en": "Hentai Cosplay Elf"
+      },
+      "platform": "steam",
+      "platformId": "1153670",
+      "executables": [
+        {
+          "name": "Hentai Cosplay Elf.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1153670/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1153670 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Hentai Cosplay Elf.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1172470",
       "status": "verified",
       "names": {
@@ -994,6 +1266,36 @@
         }
       ],
       "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1184400",
+      "status": "verified",
+      "names": {
+        "en": "Succubus Waifu"
+      },
+      "platform": "steam",
+      "platformId": "1184400",
+      "executables": [
+        {
+          "name": "Succubus Waifu.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1184400/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1184400 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Succubus Waifu.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
     },
     {
       "schemaVersion": 1,
@@ -1145,6 +1447,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1273710",
+      "status": "verified",
+      "names": {
+        "en": "King of Crabs"
+      },
+      "platform": "steam",
+      "platformId": "1273710",
+      "executables": [
+        {
+          "name": "King of Crabs.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1273710/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1273710 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is King of Crabs.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1274800",
       "status": "verified",
       "names": {
@@ -1204,6 +1536,37 @@
         }
       ],
       "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1307090",
+      "status": "verified",
+      "names": {
+        "en": "Barro Racing"
+      },
+      "platform": "steam",
+      "platformId": "1307090",
+      "executables": [
+        {
+          "name": "Barro Racing.exe",
+          "relativePath": "Barro Racing/Barro Racing.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1307090/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1307090 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is Barro Racing/Barro Racing.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-23"
     },
     {
       "schemaVersion": 1,
@@ -1268,6 +1631,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1331510",
+      "status": "verified",
+      "names": {
+        "en": "Battle Talent"
+      },
+      "platform": "steam",
+      "platformId": "1331510",
+      "executables": [
+        {
+          "name": "BattleTalent.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1331510/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1331510 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is BattleTalent.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1344800",
       "status": "verified",
       "names": {
@@ -1298,6 +1691,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1354230",
+      "status": "verified",
+      "names": {
+        "en": "Love Tavern"
+      },
+      "platform": "steam",
+      "platformId": "1354230",
+      "executables": [
+        {
+          "name": "LoveTavern.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1354230/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1354230 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is LoveTavern.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-23"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1364780",
       "status": "verified",
       "names": {
@@ -1321,6 +1744,36 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1372810",
+      "status": "verified",
+      "names": {
+        "en": "Teamfight Manager"
+      },
+      "platform": "steam",
+      "platformId": "1372810",
+      "executables": [
+        {
+          "name": "Teamfight Manager.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1372810/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1372810 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Teamfight Manager.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
     },
     {
       "schemaVersion": 1,
@@ -1498,6 +1951,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1667130",
+      "status": "verified",
+      "names": {
+        "en": "Beautiful Mystic Defenders"
+      },
+      "platform": "steam",
+      "platformId": "1667130",
+      "executables": [
+        {
+          "name": "BeautifulMysticDefenders.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1667130/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1667130 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is BeautifulMysticDefenders.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1716740",
       "status": "verified",
       "names": {
@@ -1521,6 +2004,67 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:17410",
+      "status": "verified",
+      "names": {
+        "en": "Mirror's Edge™"
+      },
+      "platform": "steam",
+      "platformId": "17410",
+      "executables": [
+        {
+          "name": "MirrorsEdge.exe",
+          "relativePath": "Binaries/MirrorsEdge.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/17410/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/17410 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Binaries/MirrorsEdge.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1754870",
+      "status": "verified",
+      "names": {
+        "en": "Lust Theory Season 2"
+      },
+      "platform": "steam",
+      "platformId": "1754870",
+      "executables": [
+        {
+          "name": "LustTheory2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1754870/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/1754870 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is LustTheory2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
     },
     {
       "schemaVersion": 1,
@@ -1752,6 +2296,68 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2095290",
+      "status": "verified",
+      "names": {
+        "en": "Theseus Protocol",
+        "zh-CN": "特修斯协议"
+      },
+      "platform": "steam",
+      "platformId": "2095290",
+      "executables": [
+        {
+          "name": "Theseus_Protocol.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2095290/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2095290 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Theseus_Protocol.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2138090",
+      "status": "verified",
+      "names": {
+        "en": "Atelier Marie Remake: The Alchemist of Salburg",
+        "zh-CN": "玛莉的炼金工房 Remake ～萨尔布鲁克的炼金术士～"
+      },
+      "platform": "steam",
+      "platformId": "2138090",
+      "executables": [
+        {
+          "name": "Atelier_Marie_Remake.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2138090/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2138090 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Atelier_Marie_Remake.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
     },
     {
       "schemaVersion": 1,
@@ -1995,6 +2601,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:236150",
+      "status": "verified",
+      "names": {
+        "en": "Starpoint Gemini 2"
+      },
+      "platform": "steam",
+      "platformId": "236150",
+      "executables": [
+        {
+          "name": "StarpointGemini2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/236150/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/236150 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is StarpointGemini2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-23"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:237630",
       "status": "verified",
       "names": {
@@ -2053,6 +2689,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2399220",
+      "status": "verified",
+      "names": {
+        "en": "NUKITASHI"
+      },
+      "platform": "steam",
+      "platformId": "2399220",
+      "executables": [
+        {
+          "name": "NUKITASHI.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2399220/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2399220 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is NUKITASHI.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
     },
     {
       "schemaVersion": 1,
@@ -2392,6 +3058,67 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:290060",
+      "status": "verified",
+      "names": {
+        "en": "Glitchspace"
+      },
+      "platform": "steam",
+      "platformId": "290060",
+      "executables": [
+        {
+          "name": "glitchspace.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/290060/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/290060 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is glitchspace.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2917350",
+      "status": "verified",
+      "names": {
+        "en": "Spin Hero",
+        "zh-CN": "拉杆英雄"
+      },
+      "platform": "steam",
+      "platformId": "2917350",
+      "executables": [
+        {
+          "name": "Spin Hero.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2917350/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/2917350 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Spin Hero.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:297120",
       "status": "verified",
       "names": {
@@ -2450,6 +3177,36 @@
         }
       ],
       "lastVerified": "2026-11-18"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:3049460",
+      "status": "verified",
+      "names": {
+        "en": "Milking Mira!"
+      },
+      "platform": "steam",
+      "platformId": "3049460",
+      "executables": [
+        {
+          "name": "MilkingMira!.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/3049460/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/3049460 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is MilkingMira!.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
     },
     {
       "schemaVersion": 1,
@@ -2513,6 +3270,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:311210",
+      "status": "verified",
+      "names": {
+        "en": "Call of Duty®: Black Ops III"
+      },
+      "platform": "steam",
+      "platformId": "311210",
+      "executables": [
+        {
+          "name": "blackops3.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/311210/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/311210 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is blackops3.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:312780",
       "status": "verified",
       "names": {
@@ -2570,6 +3357,36 @@
         }
       ],
       "lastVerified": "2026-11-20"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:3217600",
+      "status": "verified",
+      "names": {
+        "en": "Idle Sphere"
+      },
+      "platform": "steam",
+      "platformId": "3217600",
+      "executables": [
+        {
+          "name": "Idle Sphere.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/3217600/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/3217600 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Idle Sphere.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-23"
     },
     {
       "schemaVersion": 1,
@@ -2633,6 +3450,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:3259470",
+      "status": "verified",
+      "names": {
+        "en": "Papa's Pizzeria Deluxe"
+      },
+      "platform": "steam",
+      "platformId": "3259470",
+      "executables": [
+        {
+          "name": "Papa's Pizzeria Deluxe.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/3259470/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/3259470 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Papa's Pizzeria Deluxe.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:333600",
       "status": "verified",
       "names": {
@@ -2660,6 +3507,36 @@
         }
       ],
       "lastVerified": "2026-11-15"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:33550",
+      "status": "verified",
+      "names": {
+        "en": "Time of Shadows"
+      },
+      "platform": "steam",
+      "platformId": "33550",
+      "executables": [
+        {
+          "name": "timeofshadows.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/33550/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/33550 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is timeofshadows.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-23"
     },
     {
       "schemaVersion": 1,
@@ -2721,6 +3598,96 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:359940",
+      "status": "verified",
+      "names": {
+        "en": "Shadows Peak"
+      },
+      "platform": "steam",
+      "platformId": "359940",
+      "executables": [
+        {
+          "name": "ShadowsPeak.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/359940/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/359940 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is ShadowsPeak.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-23"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:365020",
+      "status": "verified",
+      "names": {
+        "en": "Gynophobia"
+      },
+      "platform": "steam",
+      "platformId": "365020",
+      "executables": [
+        {
+          "name": "Gynophobia.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/365020/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/365020 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Gynophobia.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:368370",
+      "status": "verified",
+      "names": {
+        "en": "Her Story"
+      },
+      "platform": "steam",
+      "platformId": "368370",
+      "executables": [
+        {
+          "name": "HerStory.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/368370/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/368370 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is HerStory.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-23"
     },
     {
       "schemaVersion": 1,
@@ -2898,6 +3865,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:388880",
+      "status": "verified",
+      "names": {
+        "en": "Oxenfree"
+      },
+      "platform": "steam",
+      "platformId": "388880",
+      "executables": [
+        {
+          "name": "Oxenfree.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/388880/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/388880 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Oxenfree.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:397540",
       "status": "verified",
       "names": {
@@ -2930,6 +3927,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:406130",
+      "status": "verified",
+      "names": {
+        "en": "DarkMaus"
+      },
+      "platform": "steam",
+      "platformId": "406130",
+      "executables": [
+        {
+          "name": "DarkMaus.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/406130/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/406130 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is DarkMaus.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:418370",
       "status": "verified",
       "names": {
@@ -2953,6 +3980,36 @@
         }
       ],
       "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:420440",
+      "status": "verified",
+      "names": {
+        "en": "Atlantic Fleet"
+      },
+      "platform": "steam",
+      "platformId": "420440",
+      "executables": [
+        {
+          "name": "AtlanticFleet.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/420440/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/420440 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is AtlanticFleet.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
     },
     {
       "schemaVersion": 1,
@@ -3104,6 +4161,66 @@
         }
       ],
       "lastVerified": "2026-11-21"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:474830",
+      "status": "verified",
+      "names": {
+        "en": "Time in Time"
+      },
+      "platform": "steam",
+      "platformId": "474830",
+      "executables": [
+        {
+          "name": "timeintime.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/474830/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/474830 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is timeintime.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:477290",
+      "status": "verified",
+      "names": {
+        "en": "Magma Tsunami"
+      },
+      "platform": "steam",
+      "platformId": "477290",
+      "executables": [
+        {
+          "name": "MagmaTsunami.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/477290/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/477290 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is MagmaTsunami.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
     },
     {
       "schemaVersion": 1,
@@ -3313,6 +4430,66 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:559960",
+      "status": "verified",
+      "names": {
+        "en": "Power Hover"
+      },
+      "platform": "steam",
+      "platformId": "559960",
+      "executables": [
+        {
+          "name": "PowerHover.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/559960/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/559960 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is PowerHover.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:562410",
+      "status": "verified",
+      "names": {
+        "en": "Panty Party"
+      },
+      "platform": "steam",
+      "platformId": "562410",
+      "executables": [
+        {
+          "name": "PantyParty.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/562410/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/562410 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is PantyParty.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:570",
       "status": "verified",
       "names": {
@@ -3341,6 +4518,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:570980",
+      "status": "verified",
+      "names": {
+        "en": "Tale of Fallen Dragons"
+      },
+      "platform": "steam",
+      "platformId": "570980",
+      "executables": [
+        {
+          "name": "FallenDragons.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/570980/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/570980 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is FallenDragons.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
     },
     {
       "schemaVersion": 1,
@@ -3488,6 +4695,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:606480",
+      "status": "verified",
+      "names": {
+        "en": "Flood of Light"
+      },
+      "platform": "steam",
+      "platformId": "606480",
+      "executables": [
+        {
+          "name": "FloodOfLight.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/606480/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/606480 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is FloodOfLight.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:620",
       "status": "verified",
       "names": {
@@ -3515,6 +4752,38 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:623320",
+      "status": "verified",
+      "names": {
+        "en": "Button Button Up!",
+        "zh-CN": "纽扣兄弟"
+      },
+      "platform": "steam",
+      "platformId": "623320",
+      "executables": [
+        {
+          "name": "ButtonButtonUp!.exe",
+          "relativePath": "Button Button Up!/ButtonButtonUp!.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/623320/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/623320 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Button Button Up!/ButtonButtonUp!.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
     },
     {
       "schemaVersion": 1,
@@ -3608,6 +4877,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:660290",
+      "status": "verified",
+      "names": {
+        "en": "Dungeons & Geese"
+      },
+      "platform": "steam",
+      "platformId": "660290",
+      "executables": [
+        {
+          "name": "Dungeons & Geese.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/660290/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/660290 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Dungeons & Geese.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:666960",
       "status": "verified",
       "names": {
@@ -3635,6 +4934,127 @@
         }
       ],
       "lastVerified": "2026-11-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:667810",
+      "status": "verified",
+      "names": {
+        "en": "Next Up Hero"
+      },
+      "platform": "steam",
+      "platformId": "667810",
+      "executables": [
+        {
+          "name": "NextUpHero.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/667810/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/667810 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is NextUpHero.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:673210",
+      "status": "verified",
+      "names": {
+        "en": "Frontier Pilot Simulator"
+      },
+      "platform": "steam",
+      "platformId": "673210",
+      "executables": [
+        {
+          "name": "Frontier Pilot Simulator.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/673210/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/673210 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Frontier Pilot Simulator.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-23"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:674570",
+      "status": "verified",
+      "names": {
+        "en": "Bear Football"
+      },
+      "platform": "steam",
+      "platformId": "674570",
+      "executables": [
+        {
+          "name": "Bear Football.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/674570/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/674570 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Bear Football.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:684580",
+      "status": "verified",
+      "names": {
+        "en": "Shoppe Keep 2"
+      },
+      "platform": "steam",
+      "platformId": "684580",
+      "executables": [
+        {
+          "name": "Shoppe Keep 2.exe",
+          "relativePath": "Shoppe Keep 2 SP/Shoppe Keep 2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/684580/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/684580 Steam PICS appinfo: common.type=Game, Windows launch entry 1 on the default branch is Shoppe Keep 2 SP/Shoppe Keep 2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
     },
     {
       "schemaVersion": 1,
@@ -3847,6 +5267,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:764560",
+      "status": "verified",
+      "names": {
+        "en": "Chocolate makes you happy 2"
+      },
+      "platform": "steam",
+      "platformId": "764560",
+      "executables": [
+        {
+          "name": "Chocolate makes you happy 2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/764560/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/764560 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Chocolate makes you happy 2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:779330",
       "status": "verified",
       "names": {
@@ -4024,6 +5474,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:843390",
+      "status": "verified",
+      "names": {
+        "en": "Vertigo 2"
+      },
+      "platform": "steam",
+      "platformId": "843390",
+      "executables": [
+        {
+          "name": "vertigo2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/843390/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/843390 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is vertigo2.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-28; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:848450",
       "status": "verified",
       "names": {
@@ -4052,6 +5532,66 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:850450",
+      "status": "verified",
+      "names": {
+        "en": "Escape First"
+      },
+      "platform": "steam",
+      "platformId": "850450",
+      "executables": [
+        {
+          "name": "EscapeFirst.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/850450/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/850450 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is EscapeFirst.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:862570",
+      "status": "verified",
+      "names": {
+        "en": "Ding Dong XL"
+      },
+      "platform": "steam",
+      "platformId": "862570",
+      "executables": [
+        {
+          "name": "DingDongXL.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/862570/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/862570 Steam PICS appinfo: common.type=Game, Windows launch entry 2 on the default branch is DingDongXL.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-25; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-25"
     },
     {
       "schemaVersion": 1,
@@ -4176,6 +5716,36 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:924140",
+      "status": "verified",
+      "names": {
+        "en": "Hand Simulator: Survival"
+      },
+      "platform": "steam",
+      "platformId": "924140",
+      "executables": [
+        {
+          "name": "Hand Simulator Survival.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/924140/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/924140 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Hand Simulator Survival.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-27; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-27"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:943260",
       "status": "verified",
       "names": {
@@ -4234,6 +5804,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:946550",
+      "status": "verified",
+      "names": {
+        "en": "Hentai Forest"
+      },
+      "platform": "steam",
+      "platformId": "946550",
+      "executables": [
+        {
+          "name": "Hentai Forest.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/946550/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/946550 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Hentai Forest.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-24; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-24"
     },
     {
       "schemaVersion": 1,
@@ -4323,6 +5923,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:981430",
+      "status": "verified",
+      "names": {
+        "en": "Gordian Quest",
+        "zh-CN": "高殿战记"
+      },
+      "platform": "steam",
+      "platformId": "981430",
+      "executables": [
+        {
+          "name": "GordianQuest.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/981430/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/981430 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is GordianQuest.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-23; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-23"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:990080",
       "status": "verified",
       "names": {
@@ -4351,6 +5982,36 @@
         }
       ],
       "lastVerified": "2026-11-13"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:995050",
+      "status": "verified",
+      "names": {
+        "en": "Havocado: Ragdoll Fighter"
+      },
+      "platform": "steam",
+      "platformId": "995050",
+      "executables": [
+        {
+          "name": "Havocado.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/995050/ Steam appdetails: type=game, Windows supported"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "https://api.steamcmd.net/v1/info/995050 Steam PICS appinfo: common.type=Game, Windows launch entry 0 on the default branch is Havocado.exe"
+        },
+        {
+          "kind": "manual_review",
+          "source": "AI-assisted review (rule B: PICS launch filename equals candidate), 2026-11-26; pending maintainer merge"
+        }
+      ],
+      "lastVerified": "2026-11-26"
     },
     {
       "schemaVersion": 1,
